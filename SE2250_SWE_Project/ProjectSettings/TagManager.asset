@@ -7,6 +7,7 @@ TagManager:
   - ground
   - Ground
   - Mountain
+  - Wall
   layers:
   - Default
   - TransparentFX
