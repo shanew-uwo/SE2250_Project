@@ -18,6 +18,9 @@ public class PlayerMovementController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         initialPosition = transform.position;
         initialRotation = transform.rotation;
+
+        // Freeze rotation on X and Z axes to prevent character from spinning
+        rb.freezeRotation = true;
     }
 
     void Update()
