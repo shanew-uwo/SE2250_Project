@@ -3,31 +3,19 @@ using UnityEngine;
 public class PlayerMovementController : MonoBehaviour
 {
     [Header("Character Attributes")]
-    public float moveSpeed = 5f;  
-    public float jumpForce = 0.5f;
+    public float moveSpeed = 5f;
+    public float jumpForce = 5f; // Increased to match Unity physics scale
 
-    private float defaultMoveSpeed;
-    private float defaultJumpForce;
-
-    private Rigidbody rb;
     private Vector3 moveDirection;
-    private bool isGrounded;
-
     private Vector3 initialPosition;
     private Quaternion initialRotation;
+
+    public Rigidbody rb;
+    public bool isGrounded;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-
-        // Save default stats
-        defaultMoveSpeed = 5f;
-        defaultJumpForce = 0.5f;
-
-        moveSpeed = defaultMoveSpeed;
-        jumpForce = defaultJumpForce;
-
-        // Save starting transform
         initialPosition = transform.position;
         initialRotation = transform.rotation;
     }
@@ -42,16 +30,10 @@ public class PlayerMovementController : MonoBehaviour
             Jump();
         }
 
-        // Increase Jump Force (Press J)
+        // Press J to increase jump force by 1
         if (Input.GetKeyDown(KeyCode.J))
         {
-            IncreaseJumpForce(1f);
-        }
-
-        // Increase Speed (Press K)
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            IncreaseSpeed(1f);
+            BoostJumpForce(1f);
         }
     }
 
@@ -64,7 +46,6 @@ public class PlayerMovementController : MonoBehaviour
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveZ = Input.GetAxisRaw("Vertical");
-
         moveDirection = new Vector3(moveX, 0, moveZ).normalized;
     }
 
@@ -85,8 +66,8 @@ public class PlayerMovementController : MonoBehaviour
 
     void Jump()
     {
-        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z); // Reset vertical momentum
-        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse); // Jump
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
+        rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         isGrounded = false;
     }
 
@@ -99,7 +80,7 @@ public class PlayerMovementController : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Mountain"))
         {
-            Respawn();
+            RespawnAtStart();
         }
     }
 
@@ -111,25 +92,18 @@ public class PlayerMovementController : MonoBehaviour
         }
     }
 
-    public void IncreaseJumpForce(float amount)
+    public void BoostJumpForce(float amount)
     {
         jumpForce += amount;
-        Debug.Log("Jump Force Increased: " + jumpForce);
+        Debug.Log("Jump Force Increased by Event: " + jumpForce);
     }
 
-    public void IncreaseSpeed(float amount)
-    {
-        moveSpeed += amount;
-        Debug.Log("Move Speed Increased: " + moveSpeed);
-    }
-
-    void Respawn()
+    public void RespawnAtStart()
     {
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
         transform.position = initialPosition;
         transform.rotation = initialRotation;
-
-        Debug.Log("Respawned after hitting Mountain!");
+        Debug.Log("Player respawned at initial position.");
     }
 }

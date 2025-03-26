@@ -5,10 +5,9 @@ public class CharacterAnimationController : MonoBehaviour
     public Animator animator;
     public Rigidbody rb;
     public float walkThreshold = 0.01f;
-    public float fallThreshold = -0.01f; // Lower this to detect falling sooner
+    public float fallThreshold = -0.01f;
 
     private bool isGrounded = true;
-    private bool isFalling = false;
 
     void Start()
     {
@@ -24,23 +23,7 @@ public class CharacterAnimationController : MonoBehaviour
             return;
         }
 
-        // Handle Jumping
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
-        {
-            Jump();
-        }
-
-        // Handle transitions between Jump, Fall, and Walk
         UpdateAnimationParameters();
-    }
-
-    private void Jump()
-    {
-        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 7f, rb.linearVelocity.z); // Jump force
-        isGrounded = false;
-        isFalling = false;
-        animator.SetBool("IsJumping", true);
-        animator.SetBool("IsFalling", false);
     }
 
     private void UpdateAnimationParameters()
@@ -50,14 +33,13 @@ public class CharacterAnimationController : MonoBehaviour
 
         if (!isGrounded)
         {
-            if (rb.linearVelocity.y > 0.1f) // Moving up (jumping)
+            if (rb.linearVelocity.y > 0.1f)
             {
                 animator.SetBool("IsJumping", true);
                 animator.SetBool("IsFalling", false);
             }
-            else if (rb.linearVelocity.y < fallThreshold) // Falling
+            else if (rb.linearVelocity.y < fallThreshold)
             {
-                isFalling = true;
                 animator.SetBool("IsJumping", false);
                 animator.SetBool("IsFalling", true);
             }
@@ -69,7 +51,6 @@ public class CharacterAnimationController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
-            isFalling = false;
             animator.SetBool("IsJumping", false);
             animator.SetBool("IsFalling", false);
         }
@@ -80,14 +61,6 @@ public class CharacterAnimationController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
-
-            // Ensure that Falling animation triggers as soon as we leave the ground
-            if (rb.linearVelocity.y < fallThreshold)
-            {
-                isFalling = true;
-                animator.SetBool("IsJumping", false);
-                animator.SetBool("IsFalling", true);
-            }
         }
     }
 }
