@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovableBlock : Block
+public class MovableBlock : Block, iMoveable
 {
     public float moveSpeed = 5f;
     private Rigidbody rb;
@@ -15,7 +15,7 @@ public class MovableBlock : Block
     }
 
     // This method can be used to move the block based on external forces
-    public override void Move(Vector3 direction)
+    public void Move(Vector3 direction)
     {
         // Apply force to the Rigidbody in the given direction
         rb.AddForce(direction * moveSpeed, ForceMode.Impulse);
