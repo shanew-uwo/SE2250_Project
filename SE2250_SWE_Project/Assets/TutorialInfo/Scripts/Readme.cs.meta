@@ -10,3 +10,13 @@ MonoImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+<<<<<<< Updated upstream
+=======
+AssetOrigin:
+  serializedVersion: 1
+  productId: 201897
+  packageName: Mini Toon | Office Scene
+  packageVersion: 1.0
+  assetPath: Assets/TutorialInfo/Scripts/Readme.cs
+  uploadId: 449881
+>>>>>>> Stashed changes
