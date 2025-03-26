@@ -4,7 +4,7 @@ public class PlayerMovementController : MonoBehaviour
 {
     [Header("Character Attributes")]
     public float moveSpeed = 5f;
-    public float jumpForce = 5f; // Increased to match Unity physics scale
+    public float jumpForce = 5f;
 
     private Vector3 moveDirection;
     private Vector3 initialPosition;
@@ -23,14 +23,12 @@ public class PlayerMovementController : MonoBehaviour
     void Update()
     {
         ProcessInputs();
-        RotateCharacter();
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
         }
 
-        // Press J to increase jump force by 1
         if (Input.GetKeyDown(KeyCode.J))
         {
             BoostJumpForce(1f);
@@ -46,18 +44,25 @@ public class PlayerMovementController : MonoBehaviour
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveZ = Input.GetAxisRaw("Vertical");
-        moveDirection = new Vector3(moveX, 0, moveZ).normalized;
+
+        Vector3 forward = Camera.main.transform.forward;
+        Vector3 right = Camera.main.transform.right;
+        forward.y = 0;
+        right.y = 0;
+        forward.Normalize();
+        right.Normalize();
+
+        moveDirection = forward * moveZ + right * moveX;
+        moveDirection.Normalize();
     }
 
     void ApplyMovement()
     {
         Vector3 moveVelocity = moveDirection * moveSpeed;
         rb.linearVelocity = new Vector3(moveVelocity.x, rb.linearVelocity.y, moveVelocity.z);
-    }
 
-    void RotateCharacter()
-    {
-        if (moveDirection != Vector3.zero)
+        // Rotate to face move direction
+        if (moveDirection.magnitude > 0.1f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * 10f);

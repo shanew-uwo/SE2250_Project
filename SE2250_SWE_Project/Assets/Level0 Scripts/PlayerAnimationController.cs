@@ -29,7 +29,9 @@ public class CharacterAnimationController : MonoBehaviour
     private void UpdateAnimationParameters()
     {
         float speed = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z).magnitude;
-        animator.SetFloat("Speed", speed);
+
+        // Add damping to reduce jitter (change "0.1f" to control smoothness)
+        animator.SetFloat("Speed", speed, 0.1f, Time.deltaTime);
 
         if (!isGrounded)
         {
