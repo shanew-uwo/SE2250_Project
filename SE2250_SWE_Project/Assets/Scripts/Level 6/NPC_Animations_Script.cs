@@ -1,32 +1,39 @@
 using UnityEngine;
 
+
 public class NPC_Animations_Script : MonoBehaviour
 {
     public Animator animator;
-    public Rigidbody rb;
-    public float walkThreshold = 0.01f;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public float speedMultiplier = 10f; // Adjust to control animation speed sensitivity
+
+    private Vector3 lastPosition;
+    private float speed;
+
     void Start()
     {
-        
+        lastPosition = transform.position; // Store initial position
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (animator == null || rb == null)
+        if (animator == null)
         {
-            Debug.LogError("Animator or Rigidbody is missing!");
+            Debug.LogError("Animator is missing!");
             return;
         }
-        
+
         UpdateAnimationParameters();
     }
-    
+
     public virtual void UpdateAnimationParameters()
     {
-        float speed = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z).magnitude;
-        animator.SetFloat("Speed", speed);
-        
+        // Calculate movement speed using distance covered per frame
+        speed = (transform.position - lastPosition).magnitude / Time.deltaTime;
+
+        // Apply multiplier if needed
+        animator.SetFloat("Speed", speed * speedMultiplier);
+
+        // Update last position for the next frame
+        lastPosition = transform.position;
     }
 }
