@@ -4,6 +4,7 @@ public class ManageSkills : MonoBehaviour
 {
     // List of all skills the player has collected
     private List<Skill> playerSkills = new List<Skill>();
+    private List<string> requiredSkills = new List<string> { "JavaScript", "Git", "Database Management", "Cloud Computing" };  // List of required skills to advance
 
     // Player stats
     private float currentAttackDamage;
@@ -39,7 +40,31 @@ public class ManageSkills : MonoBehaviour
                 break;
         }
     }
+    
+    // Method to check if the player has all required skills
+    public bool HasAllRequiredSkills()
+    {
+        foreach (var requiredSkill in requiredSkills)
+        {
+            bool hasSkill = false;
 
+            // Check if player has the required skill
+            foreach (var playerSkill in playerSkills)
+            {
+                if (playerSkill.skillName == requiredSkill)
+                {
+                    hasSkill = true;
+                    break;
+                }
+            }
+
+            if (!hasSkill)  // If any required skill is missing
+            {
+                return false;
+            }
+        }
+        return true;  // All required skills are present
+    }
 
     // For testing purposes, get the player's current attack damage
     public float GetCurrentAttackDamage()
