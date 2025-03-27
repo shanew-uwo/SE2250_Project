@@ -8,19 +8,21 @@ public class Demon_Movement_Script : MonoBehaviour
 
     void Update()
     {
-        if (player is null) return;  // Ensure there's a player assigned
 
-        // Calculate direction to player
-        Vector3 direction = (player.position - transform.position).normalized;
-
-        // Check if the entity should move
-        float distance = Vector3.Distance(transform.position, player.position);
-        if (distance > stoppingDistance)
+        if (player != null)
         {
-            transform.position += direction * (speed * Time.deltaTime);
-        }
+            // Calculate direction to player
+            Vector3 direction = (player.position - transform.position).normalized;
 
-        // Optionally make the enemy face the player
-        transform.LookAt(player);
+            // Check if the entity should move
+            float distance = Vector3.Distance(transform.position, player.position);
+            if (distance > stoppingDistance)
+            {
+                transform.position += direction * (speed * Time.deltaTime);
+            }
+
+            // Optionally make the enemy face the player
+            transform.LookAt(player);
+        }
     }
 }

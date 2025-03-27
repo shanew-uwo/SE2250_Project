@@ -24,6 +24,7 @@ public class EnemyAoE : MonoBehaviour
 
     private void PerformAoEAttack()
     {
+        GetComponent<BossAOEVisual>().StartAOEEffect();
         // Get all colliders within the AoE radius
         Collider[] hitColliders = Physics.OverlapSphere(transform.position, aoeRadius);
 
