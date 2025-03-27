@@ -158,6 +158,21 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
   m_PrefabInstance: {fileID: 1529915685}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &86836662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86836658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84c4e11d0e1c11343839890ab895d02a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aoeRadius: 5
+  aoeDamage: 20
+  attackInterval: 3
 --- !u!1 &135396647
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +606,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
       insertIndex: -1
       addedObject: {fileID: 86836659}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86836662}
   m_SourcePrefab: {fileID: 100100000, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
 --- !u!1 &1614829577
 GameObject:
@@ -604,9 +622,11 @@ GameObject:
   - component: {fileID: 1614829580}
   - component: {fileID: 1614829579}
   - component: {fileID: 1614829578}
+  - component: {fileID: 1614829583}
+  - component: {fileID: 1614829582}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -700,6 +720,31 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1614829582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614829577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 606cf7b23d3ff3e4fb1002a7522bdc9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+--- !u!114 &1614829583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614829577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 679dc346a37bc644bab5521f8e036ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
