@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Textures/Examples & Extras/Scenes/12 - Link Example.unity.meta
 guid: c14d040ced1724fc2b43683f9fde0e0c
 timeCreated: 1432629665
 licenseType: Store
+========
+guid: 77db5f628bb25654a8f5cbbbceaa2561
+folderAsset: yes
+>>>>>>>> development_V2:SE2250_SWE_Project/Assets/Scripts.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
