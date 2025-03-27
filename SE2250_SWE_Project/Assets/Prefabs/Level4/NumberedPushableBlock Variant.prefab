@@ -202,6 +202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: NumberedPushableBlock Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 6044401385829000127, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a8a2e9c8dea6749ce9a2ef8008278eca, type: 2}
     - target: {fileID: 6880656040266596872, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
