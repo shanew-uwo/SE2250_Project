@@ -1,19 +1,22 @@
 using UnityEngine;
 public class CollectGem : MonoBehaviour
 {
-    // Reference to the player's skill manager (this assumes your player has a SkillManager script)
-    public string skillToGrant = "SpeedBoost";  // Example skill name
+    public string skillName = "Fireball"; // Skill name
+    public float attackDamage;     // Damage for this skill
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Check if the collision is with the player (make sure your player is tagged "Player")
+        // Check if the collision is with the player
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Grant the skill to the player
+            // Create a new skill object with the skill name and damage value
+            Skill newSkill = new Skill(skillName, attackDamage);
+
+            // Get the SkillManager component attached to the player
             ManageSkills skillManager = collision.gameObject.GetComponent<ManageSkills>();
             if (skillManager != null)
             {
-                skillManager.AddSkill(skillToGrant);
+                skillManager.AddSkill(newSkill);
             }
 
             // Destroy the gem object
