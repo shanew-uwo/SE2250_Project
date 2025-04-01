@@ -8,8 +8,7 @@ public class BossAOEVisual : MonoBehaviour
     public float radius = 0.1f;       // Initial radius
     public float expandSpeed = 5f;  // How fast the circle expands
     public float maxRadius = 7f;    // Maximum expansion radius
-    private bool isExpanding = false;
-
+    
     void Start()
     {
         if (!lineRenderer) lineRenderer = GetComponent<LineRenderer>();
@@ -27,7 +26,6 @@ public class BossAOEVisual : MonoBehaviour
 
     private IEnumerator ExpandCircle()
     {
-        isExpanding = true;
         float currentRadius = radius;
 
         while (currentRadius < maxRadius)
@@ -38,7 +36,6 @@ public class BossAOEVisual : MonoBehaviour
         }
 
         lineRenderer.enabled = false; // Hide after expansion
-        isExpanding = false;
     }
 
     private void DrawCircle(float r)
