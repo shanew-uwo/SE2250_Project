@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Textures/Level 6/GalaxyFire/Textures.meta
 guid: 2ff9c2778592da1479ada92c510534d5
+========
+guid: d11920795b3bb454bbcdda6e82a74f8b
+>>>>>>>> origin/development_V2:SE2250_SWE_Project/Assets/Textures.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

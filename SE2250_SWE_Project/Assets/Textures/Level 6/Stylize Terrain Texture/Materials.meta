@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Textures/Level 6/Stylize Terrain Texture/Materials.meta
 guid: 855350d72edd5b546aba24877b32789a
+========
+guid: a2a52501c5d49484292caf040fb18622
+>>>>>>>> origin/development_V2:SE2250_SWE_Project/Assets/Objects.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
