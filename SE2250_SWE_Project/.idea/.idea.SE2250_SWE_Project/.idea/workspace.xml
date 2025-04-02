@@ -6,46 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d85f22-089f-4c15-adef-452f5f42a55c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Floor.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/White Marble.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/White Marble.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene/ExampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene/ExampleScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/color pallete.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/color pallete.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Textures/Hyper Casual Pelette.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Textures/Hyper Casual Pelette.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PostProcessingProfile.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PostProcessingProfile.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/CharacterCustomization/TextMesh Pro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/CharacterCustomization/TextMesh Pro.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/FST/Gladiators Low Poly Arena/Gladiator Low Poly Arena.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/FST/Gladiators Low Poly Arena/Gladiator Low Poly Arena.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Mini Modular basic material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Mini Modular basic material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material black shirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material black shirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material blond.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material blond.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material blue jeans.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material blue jeans.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material brown hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material brown hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material orange shirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material orange shirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material red hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material red hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material white slippers.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Materials/Variations/Mini Modular material white slippers.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Icons/Help_Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Icons/Help_Icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Icons/Readme_Builder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Icons/Readme_Builder.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Icons/Readme_Builder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Icons/Readme_Builder.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Scripts/Editor/ReadmeEditor.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Scripts/Editor/ReadmeEditor.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Scripts/Readme.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo 1/Readme/Scripts/Readme.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Prefabs/Lavel 3/Character Suit/Black.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Prefabs/Lavel 3/Character Suit/Black.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Introduction Scene.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Introduction Scene.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Introduction Scene/Screenshot 2025-03-27 at 8.00.49 AM.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Introduction Scene/Screenshot 2025-03-27 at 8.00.49 AM.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Introduction Scene/Screenshot 2025-03-27 at 8.02.45 AM.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Introduction Scene/Screenshot 2025-03-27 at 8.02.45 AM.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Introduction.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Introduction.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Introduction/Introduction Scene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Introduction/Introduction Scene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/First Bot .prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/First Bot .prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/Mini simple Characters Animation Controller Demo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/Mini simple Characters Animation Controller Demo.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/YPlayerController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/YPlayerController.controller.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/selection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/selection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character Selection/CharacterSelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character Selection/CharacterSelection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/DemonAnimatorController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/DemonAnimatorController.controller.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +39,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 3/NPCMovementAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@15fef0f41df6/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -162,6 +134,10 @@
       <workItem from="1743597612377" duration="376000" />
       <workItem from="1743598193633" duration="172000" />
       <workItem from="1743607384587" duration="535000" />
+      <workItem from="1743610241592" duration="3000" />
+      <workItem from="1743612197163" duration="286000" />
+      <workItem from="1743618742039" duration="2662000" />
+      <workItem from="1743625142616" duration="3084000" />
     </task>
     <servers />
   </component>
