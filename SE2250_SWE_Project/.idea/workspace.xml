@@ -5,273 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f442ce7c-1032-499e-ab52-da000db05a48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01-Idle02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01-Idle02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02-Idle01.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02-Idle01.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Backward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Backward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardLeft.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardLeft.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardRight.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_ForwardRight.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Left.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Left.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Right.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Right.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Backward [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Backward [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardLeft [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardLeft [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardRight [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_BackwardRight [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Forward [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Forward [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardLeft [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardLeft [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardRight [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_ForwardRight [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Left [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Left [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Right [RM].fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/RootMotion/HumanM@Run01_Right [RM].fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 6.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 6/AOE_Ring_Effect.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Level 6/AOE_Ring_Effect.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Arena_Terrain.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Arena_Terrain.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/Demon.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/Demon.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/Demon.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/Demon.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene/ExampleScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene/ExampleScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/color pallete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/color pallete.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Materials/Ground_Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Materials/Ground_Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Materials/Hyper_Casual_Material.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Materials/Hyper_Casual_Material.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Basic Guy Casual Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Basic Guy Casual Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Beefy Casual Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Beefy Casual Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Chibi Casual Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Chibi Casual Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Fat Man Casual Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Fat Man Casual Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Woman Casual Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Built-In/Prefabs/Woman Casual Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Info.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Info/Info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Info/Info.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Basic Guy Casual.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Basic Guy Casual.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Beefy Casual.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Beefy Casual.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Chibi Casual.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Chibi Casual.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Fat Man Casual.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Fat Man Casual.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Ground_Plane.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Ground_Plane.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Woman Casual.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Meshes/Woman Casual.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Textures/Hyper Casual Pelette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Textures/Hyper Casual Pelette.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Material.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Material/Ground_Material URP.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Material/Ground_Material URP.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Material/Hyper_Casual_Material URP.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Material/Hyper_Casual_Material URP.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Basic Guy Casual URP Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Basic Guy Casual URP Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Beefy Casual URP Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Beefy Casual URP Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Chibi Casual URP Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Chibi Casual URP Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Fat Man Casual URP Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Fat Man Casual URP Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Woman Casual URP Prefab.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/URP/Prefab/Woman Casual URP Prefab.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 6.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Block.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BlockController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BlockController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/BossAoEEffect.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/BossAoEEffect.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/DemonAnimatorController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/Demon_Movement_Script.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/Demon_Movement_Script.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/EnemyAoE.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/EnemyAoE.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/Health.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/Health.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/NPC_Animations_Script.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/NPC_Animations_Script.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MovableBlock.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MovableBlock.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/iMoveable.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/iMoveable.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Level 6.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/SampleSceneProfile.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/SampleSceneProfile.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Galaxy Fire Skybox Readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Galaxy Fire Skybox Readme.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Material.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Material/GalaxyFireMaterial.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Material/GalaxyFireMaterial.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/back_galaxyfire.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/back_galaxyfire.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/down_galaxyfire.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/down_galaxyfire.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/front_galaxyfire.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/front_galaxyfire.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/left_galaxyfire.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/left_galaxyfire.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/right_galaxyfire.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/right_galaxyfire.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/up_galaxyfire.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/GalaxyFire/Textures/up_galaxyfire.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Ground_lvl6.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Ground_lvl6.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Lava2_lvl6.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Lava2_lvl6.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Lava3_lvl6.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Lava3_lvl6.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Lava_lvl6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Lava_lvl6.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Materials/Stylize Terrain Diffuse.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Materials/Stylize Terrain Diffuse.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Materials/Stylize Terrain.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Materials/Stylize Terrain.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Scene.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Scene/Stylize Terrain Texture.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Scene/Stylize Terrain Texture.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Ambient_Occlusion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Ambient_Occlusion.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Base_Color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Base_Color.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Height.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Normal.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Roughness.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Stylize Terrain Texture/Textures/Vol_19_4_Roughness.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free).meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Materials/NewLayer.terrainlayer" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Materials/NewLayer.terrainlayer.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Materials/lava 1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Materials/lava 1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/New Folder.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Scenes/Demo Scene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Scenes/Demo Scene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Ambient Occlusion.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Ambient Occlusion.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Emissive.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Emissive.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Height.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Height.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Normal.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Lava Rocks Texture #1 (free)/Textures/lava 1_Normal.jpeg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Shaders/Shader Documentation.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Shaders/Shader Documentation.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Shaders/StandardTesselated.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Textures/Level 6/Texture_Me/Shaders/StandardTesselated.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/White.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/White.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/White.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/White.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Materials/Mini Modular texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Materials/Mini Modular texture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Circle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Circle2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Circle2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Concrete slab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Concrete slab.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Concrete slab_Height.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Concrete slab_MetallicSmoothness.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Mask1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/Mask1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 0.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Readme.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/DemonAnimatorController.controller.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations/Male.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations/Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Kevin Iglesias/Human Animations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/DefaultVolumeProfile.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/DefaultVolumeProfile.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/DefaultVolumeProfile.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/Mobile_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_RPAsset.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/Mobile_RPAsset.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/Mobile_Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/Mobile_Renderer.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/Mobile_Renderer.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/PC_RPAsset.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_RPAsset.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/PC_RPAsset.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/PC_Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/PC_Renderer.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/PC_Renderer.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/UniversalRenderPipelineGlobalSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/UniversalRenderPipelineGlobalSettings.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Level 6/UniversalRenderPipelineGlobalSettings.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 6/AOE_Ring_Effect.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 6/AOE_Ring_Effect.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,19 +25,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Merging lvl6__to__dev2__temp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lvl6__to__dev2__temp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -311,7 +47,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743567589622</updated>
       <workItem from="1743567590954" duration="542000" />
-      <workItem from="1743568183315" duration="1297000" />
+      <workItem from="1743568183315" duration="1934000" />
+      <workItem from="1743632075958" duration="51000" />
     </task>
     <servers />
   </component>
