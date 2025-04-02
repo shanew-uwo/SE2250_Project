@@ -1,4 +1,14 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 6/Shokubutsu Studio/Hyper Casual Characters/Textures/Hyper Casual Pelette.png.meta
+guid: 85f99cffdde0b4c0dbdf399fb193c990
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+========
+>>>>>>> Stashed changes
 guid: 12b454823b410476394211251b2a09d1
 TextureImporter:
   internalIDToNameTable: []

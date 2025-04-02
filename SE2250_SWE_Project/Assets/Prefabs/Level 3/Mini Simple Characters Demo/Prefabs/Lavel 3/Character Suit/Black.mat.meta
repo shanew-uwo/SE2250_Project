@@ -1,4 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
+=======
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Scripts/Level 6/DemonAnimatorController.controller.meta
+guid: 50eea19ff316c494ba808a4391d3631f
+========
+>>>>>>> Stashed changes
 guid: dd34f81f61cad4132aba283d2295e7ca
 NativeFormatImporter:
   externalObjects: {}
