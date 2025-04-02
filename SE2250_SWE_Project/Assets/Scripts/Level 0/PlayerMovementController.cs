@@ -83,6 +83,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
+            Debug.Log("ground");
             isGrounded = true;
         }
 
