@@ -7,7 +7,7 @@ TerrainLayer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Lava2_lvl6
-  m_DiffuseTexture: {fileID: 2800000, guid: 9d20b04d4f971794b99cccf45ccf4227, type: 3}
+  m_DiffuseTexture: {fileID: 2800000, guid: 41d5859cadb43914ab142abc5d5211bc, type: 3}
   m_NormalMapTexture: {fileID: 2800000, guid: 5d49eca0e746db04dae49a8384d6981f, type: 3}
   m_MaskMapTexture: {fileID: 2800000, guid: 0c454ba922aedb9419fd6ed6875cb63c, type: 3}
   m_TileSize: {x: 23, y: 23}
