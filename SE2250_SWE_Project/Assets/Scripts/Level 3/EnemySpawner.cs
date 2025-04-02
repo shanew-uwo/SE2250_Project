@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections; // Add this if not present
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -8,7 +9,7 @@ public class EnemySpawner : MonoBehaviour
 
     [Tooltip("The object the spawned enemies should move towards.")]
     [SerializeField]
-    private Transform _targetDestination; // Assign the Pedestal here!
+    private Transform _targetDestination; // Assign the Pedestal (or target object) HERE IN THE INSPECTOR!
 
     [Header("Spawn Timing")]
     [SerializeField]
@@ -16,13 +17,15 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField]
     private float _maximumSpawnTime = 5.0f;
 
-    private float _currentSpawnTimer; // Renamed for clarity
+    private float _currentSpawnTimer; // Now used for countdown
 
     void Awake()
     {
-        if (_targetDestination == null) { Debug.LogError($"Spawner '{gameObject.name}' needs a Target Destination!", this); this.enabled = false; return; }
-        if (_enemyPrefab == null) { Debug.LogError($"Spawner '{gameObject.name}' needs an Enemy Prefab!", this); this.enabled = false; return; }
-        // Set initial timer immediately
+        // --- KEEP THESE CHECKS --- they are crucial! ---
+        if (_targetDestination == null) { Debug.LogError($"Spawner '{gameObject.name}' needs a Target Destination assigned in the Inspector!", this); this.enabled = false; return; }
+        if (_enemyPrefab == null) { Debug.LogError($"Spawner '{gameObject.name}' needs an Enemy Prefab assigned in the Inspector!", this); this.enabled = false; return; }
+
+        // --- Set initial timer ---
         ResetSpawnTimer();
         Debug.Log($"Spawner '{gameObject.name}' initialized. First spawn in ~{_currentSpawnTimer}s.");
     }
@@ -31,33 +34,32 @@ public class EnemySpawner : MonoBehaviour
     {
         _currentSpawnTimer -= Time.deltaTime;
 
-        // Check if timer expired
         if (_currentSpawnTimer <= 0f)
         {
-            // Spawn ONE enemy
             SpawnEnemy();
-
-            // Immediately reset timer for the NEXT spawn
-            ResetSpawnTimer();
+            ResetSpawnTimer(); // Reset for the *next* spawn
             // Optional log: Debug.Log($"Spawner '{gameObject.name}' spawned enemy. Next spawn in ~{_currentSpawnTimer}s.");
         }
     }
 
     void SpawnEnemy()
     {
-        // No need for null checks here if Awake passed
         GameObject newEnemyGO = Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
         NPCMovementAI npcAI = newEnemyGO.GetComponent<NPCMovementAI>();
+
         if (npcAI != null)
         {
+            // This is the critical link: Pass the spawner's target to the new NPC
             npcAI.initialTargetDestination = _targetDestination;
-            // Debug.Log($"Spawner '{gameObject.name}' assigned target '{_targetDestination.name}' to spawned enemy '{newEnemyGO.name}' with AI script.", newEnemyGO); // Keep if needed
-        } else {
-            Debug.LogError($"Spawned enemy '{newEnemyGO.name}' is MISSING the NPCMovementAI script!", newEnemyGO);
+            // Debug.Log($"Spawner '{gameObject.name}' assigned target '{_targetDestination.name}' to spawned enemy '{newEnemyGO.name}'.", newEnemyGO);
+        }
+        else
+        {
+            // Prefab is missing the required script!
+            Debug.LogError($"Spawned enemy '{newEnemyGO.name}' from prefab '{_enemyPrefab.name}' is MISSING the NPCMovementAI script!", newEnemyGO);
         }
     }
 
-    // Renamed from SetTimeUntilSpawn
     private void ResetSpawnTimer()
     {
         _currentSpawnTimer = Random.Range(_minimumSpawnTime, _maximumSpawnTime);

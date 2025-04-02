@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2d85f22-089f-4c15-adef-452f5f42a55c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 6/Conquerror/Minimalist_Demon/ExampleScene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/First Bot .prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/First Bot .prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/Mini simple Characters Animation Controller Demo.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/Mini simple Characters Animation Controller Demo.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/YPlayerController.controller.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/YPlayerController.controller.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/selection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/selection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/NPCMovementAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/NPCMovementAI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +129,7 @@
       <workItem from="1743612197163" duration="286000" />
       <workItem from="1743618742039" duration="2662000" />
       <workItem from="1743625142616" duration="3084000" />
+      <workItem from="1743634077624" duration="323000" />
     </task>
     <servers />
   </component>
