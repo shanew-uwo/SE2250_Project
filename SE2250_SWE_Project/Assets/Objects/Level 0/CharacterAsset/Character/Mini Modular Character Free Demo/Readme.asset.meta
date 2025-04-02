@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21a431192e7f948029519fea2f8ac7dd
+guid: 5c23b0151db2f724082d8746bc42b7c3
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
@@ -8,8 +8,8 @@ NativeFormatImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 256389
-  packageName: Mini Modular Character | Free Demo
+  productId: 153469
+  packageName: Stylized Terrain Texture
   packageVersion: 1.0
-  assetPath: Assets/Mini Modular Character Free Demo/Readme.asset
-  uploadId: 600542
+  assetPath: Assets/Stylize Terrain Texture/Materials/Stylize Terrain.mat
+  uploadId: 328049

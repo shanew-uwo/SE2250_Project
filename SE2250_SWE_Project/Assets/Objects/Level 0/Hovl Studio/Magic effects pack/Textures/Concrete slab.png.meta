@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-guid: 1b13dc101cf2ac7418019fd776161658
+guid: 7aa4a881fd9f4aa4ebeabff8c410e068
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
@@ -21,6 +21,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -31,7 +33,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: -1
     wrapV: -1
     wrapW: -1
@@ -79,13 +81,15 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 247933
-  packageName: Magic Effects FREE
-  packageVersion: 1.3.0
-  assetPath: Assets/Hovl Studio/Magic effects pack/Textures/Concrete slab.png
-  uploadId: 733473
+  productId: 153469
+  packageName: Stylized Terrain Texture
+  packageVersion: 1.0
+  assetPath: Assets/Stylize Terrain Texture/Textures/Vol_19_4_Base_Color.png
+  uploadId: 328049

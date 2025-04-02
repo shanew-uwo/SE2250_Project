@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: b2628308a2ffb7143a18dc5255d80390
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0.meta
+guid: cadf24ace3777de4e9287a701560085a
+========
+guid: 86d4cfdc58f09a141b55302890ad98e7
+>>>>>>>> level_6:SE2250_SWE_Project/Assets/Materials/Level 6.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
