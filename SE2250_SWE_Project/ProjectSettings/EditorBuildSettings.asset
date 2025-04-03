@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level3/Introduction/IntroducingGame.unity
     guid: 6daf3dd9ce54048119017f4154abe423
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
+    path: Assets/Scenes/Level3/Level3.unity
     guid: 5314a41bb0465429f999287a8cc26494
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
