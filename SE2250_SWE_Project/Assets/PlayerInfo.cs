@@ -2,14 +2,28 @@ using UnityEngine;
 
 public class PlayerInfo : MonoBehaviour
 {
-    // Set this value in the Inspector or through game logic
-    // 0 = The type that triggers the specific dialogue path in your screenshot
-    // 1 = The default type (or another type)
-    public int characterType = 0;
+    public bool hasTalkedToSpecificNPC = false;
+    public int characterType = 0; // Assuming this is used elsewhere
 
-    // You can add other player-related data here if needed,
-    // like inventory, quest status, etc.
-    // public bool hasCompletedGuardQuest = false;
+    // Called by the Event Node in the first NPC's dialogue
+    public void MarkAsTalkedToSpecificNPC()
+    {
+        // --- DEBUG ---
+        Debug.Log($"===== {this.gameObject.name} ({Time.frameCount}): MarkAsTalkedToSpecificNPC() called. Setting hasTalkedToSpecificNPC = true. =====");
+        hasTalkedToSpecificNPC = true;
+        // Optional: Add saving logic here if needed
+    }
 
-    public int CharacterType => characterType;
+    // Called by ConditionalDialogueTrigger to check the status
+    public bool CheckIfTalkedToSpecificNPC()
+    {
+        // --- DEBUG ---
+        Debug.Log($"--- {this.gameObject.name} ({Time.frameCount}): CheckIfTalkedToSpecificNPC() called. Returning: {hasTalkedToSpecificNPC} ---");
+        return hasTalkedToSpecificNPC;
+    }
+
+    public int checkCharacterType() // Assuming this is used elsewhere
+    {
+        return characterType;
+    }
 }

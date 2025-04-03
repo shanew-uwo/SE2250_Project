@@ -6,16 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d85f22-089f-4c15-adef-452f5f42a55c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/DialogueEditor/Example/ManIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/DialogueEditor/Example/ManIcon.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Metalic Green.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Overlay.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Examples &amp; Extras/Resources/Fonts &amp; Materials/LiberationSans SDF - Soft Mask.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3a.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3a.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +137,7 @@
       <workItem from="1743625142616" duration="3084000" />
       <workItem from="1743634077624" duration="323000" />
       <workItem from="1743679306412" duration="828000" />
-      <workItem from="1743683056748" duration="695000" />
+      <workItem from="1743683056748" duration="4726000" />
     </task>
     <servers />
   </component>
