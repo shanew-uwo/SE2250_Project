@@ -6,16 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level4/New Material.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level4/New Material.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level4/GroundCube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level4/GroundCube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Animations/HumanM@Run01_Forward.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Animations/HumanM@Run01_Forward.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level4/NumberedPushableBlock Variant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level4/NumberedPushableBlock Variant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 4/GroundBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 4/GroundBuilder.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level4/PushableBlock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level4/PushableBlock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level4.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 4/BlockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 4/BlockSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 4/NumberedBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 4/NumberedBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +23,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 4/BlockSlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 4/BlockOrderTracker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 4/BlockOutline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/weinbergershane/Local Documents/SWE Semester 2/Software Construction/Project/SE2250_Project/SE2250_SWE_Project/Assets/Scripts/Level 4/BlockSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/weinbergershane/Local Documents/SWE Semester 2/Software Construction/Project/SE2250_Project/SE2250_SWE_Project/Assets/Scripts/Level 4/BlockSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/weinbergershane/Local Documents/SWE Semester 2/Software Construction/Project/SE2250_Project/SE2250_SWE_Project/Assets/Scripts/Level 4/BlockSpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 4/BlockTracker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@a394fe607f89/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -38,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "level__4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;level__4&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -61,7 +63,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.36f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.36f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -106,6 +108,11 @@
       <workItem from="1743013605514" duration="8882000" />
       <workItem from="1743030189216" duration="786000" />
       <workItem from="1743032074574" duration="95000" />
+      <workItem from="1743556643024" duration="523000" />
+      <workItem from="1743557174209" duration="526000" />
+      <workItem from="1743558866868" duration="2896000" />
+      <workItem from="1743638589547" duration="7305000" />
+      <workItem from="1743690162959" duration="6657000" />
     </task>
     <servers />
   </component>

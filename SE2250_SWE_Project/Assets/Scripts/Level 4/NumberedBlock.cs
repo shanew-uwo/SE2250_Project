@@ -26,4 +26,9 @@ public class NumberedBlock : MonoBehaviour
             numberLabel.text = blockNumber.ToString();
         }
     }
+
+    public int GetNumber()
+    {
+        return blockNumber;
+    }
 }

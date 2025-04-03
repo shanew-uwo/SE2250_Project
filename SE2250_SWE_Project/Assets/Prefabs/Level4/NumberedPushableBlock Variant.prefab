@@ -198,6 +198,18 @@ PrefabInstance:
       propertyPath: m_isRightToLeft
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1919158838076476091, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919158838076476091, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
+      propertyPath: m_Mass
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919158838076476091, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3901430323427584480, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
       propertyPath: m_Name
       value: NumberedPushableBlock Variant
@@ -257,6 +269,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3901430323427584480, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1873774879826707558}
+    - targetCorrespondingSourceObject: {fileID: 3901430323427584480, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2884725580213442000}
   m_SourcePrefab: {fileID: 100100000, guid: 222de0f015e8e46d7b3d7dc0c08bb766, type: 3}
 --- !u!4 &147731197687567332 stripped
 Transform:
@@ -282,3 +297,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockNumber: 2
   numberLabel: {fileID: 5102262719596995514}
+--- !u!114 &2884725580213442000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7734214095884466188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc567307ea27c46848e9036810ba1064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  snapDistance: 0.5
+  lockTime: 1
+  clickSound: {fileID: 0}
