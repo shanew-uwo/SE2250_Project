@@ -50,7 +50,7 @@ public class NPCMovementAI : MonoBehaviour
 
         if (agent == null || animator == null)
         {
-            Debug.LogError($"Missing NavMeshAgent or Animator on {gameObject.name}", this);
+            // Debug.LogError($"Missing NavMeshAgent or Animator on {gameObject.name}", this);
             enabled = false; // Critical failure
             return;
         }
@@ -58,8 +58,8 @@ public class NPCMovementAI : MonoBehaviour
         // Read component settings for info/warnings (Good!)
         agentUpdateRotation = agent.updateRotation;
         animatorApplyRootMotion = animator.applyRootMotion;
-        if (!agentUpdateRotation) { Debug.LogWarning($"NavMeshAgent on {gameObject.name} has 'Update Rotation' set to FALSE. Character might not turn.", this); }
-        if (animatorApplyRootMotion) { Debug.LogWarning($"Animator on {gameObject.name} has 'Apply Root Motion' set to TRUE. This can conflict with NavMeshAgent.", this); }
+        // if (!agentUpdateRotation) { Debug.LogWarning($"NavMeshAgent on {gameObject.name} has 'Update Rotation' set to FALSE. Character might not turn.", this); }
+        // if (animatorApplyRootMotion) { Debug.LogWarning($"Animator on {gameObject.name} has 'Apply Root Motion' set to TRUE. This can conflict with NavMeshAgent.", this); }
     }
 
     void Start()
@@ -96,12 +96,12 @@ public class NPCMovementAI : MonoBehaviour
 
     IEnumerator InitializeAgentAndStart()
     {
-        Debug.Log($"{gameObject.name}: Starting Initialization Coroutine.");
+        // Debug.Log($"{gameObject.name}: Starting Initialization Coroutine.");
 
         // 1. Essential: Check if the target was actually assigned by the spawner
         if (initialTargetDestination == null)
         {
-            Debug.LogError($"INITIAL TARGET DESTINATION IS NULL for {gameObject.name} after spawn! Spawner might not have assigned it or it was lost. Disabling AI.", this);
+            // Debug.LogError($"INITIAL TARGET DESTINATION IS NULL for {gameObject.name} after spawn! Spawner might not have assigned it or it was lost. Disabling AI.", this);
             currentState = NPCState.Initializing; // Stay in init (or go to an error state)
             SetAnimatorMovement(false, false);
             agent.isStopped = true;
@@ -109,33 +109,33 @@ public class NPCMovementAI : MonoBehaviour
             yield break; // Stop coroutine
         }
         initialTargetPosition = initialTargetDestination.position; // Cache the position
-        Debug.Log($"{gameObject.name}: Target '{initialTargetDestination.name}' confirmed at {initialTargetPosition}.");
+        // Debug.Log($"{gameObject.name}: Target '{initialTargetDestination.name}' confirmed at {initialTargetPosition}.");
 
 
         // 2. Wait a frame to allow the object's position to stabilize in the physics/NavMesh world
         yield return new WaitForEndOfFrame();
-        Debug.Log($"{gameObject.name}: EndOfFrame wait complete. Current Position: {transform.position}");
+        // Debug.Log($"{gameObject.name}: EndOfFrame wait complete. Current Position: {transform.position}");
 
 
         // 3. Ensure Agent is on the NavMesh - VERY IMPORTANT FOR SPAWNED OBJECTS
         if (!agent.isOnNavMesh)
         {
-            Debug.LogWarning($"{gameObject.name} is not on NavMesh at {transform.position}. Attempting to sample and warp...");
+            // Debug.LogWarning($"{gameObject.name} is not on NavMesh at {transform.position}. Attempting to sample and warp...");
             NavMeshHit hit;
             // Try to find the nearest valid point within a radius
             if (NavMesh.SamplePosition(transform.position, out hit, NAVMESH_SAMPLE_RADIUS, NavMesh.AllAreas))
             {
-                Debug.Log($"{gameObject.name}: Found NavMesh point at {hit.position} (distance: {hit.distance}). Attempting Warp...");
+                // Debug.Log($"{gameObject.name}: Found NavMesh point at {hit.position} (distance: {hit.distance}). Attempting Warp...");
                 if (agent.Warp(hit.position))
                 {
-                    Debug.Log($"{gameObject.name}: Warp successful to {agent.transform.position}. Waiting another frame..."); // Agent position updates AFTER warp
+                    // Debug.Log($"{gameObject.name}: Warp successful to {agent.transform.position}. Waiting another frame..."); // Agent position updates AFTER warp
                      // Need another brief wait AFTER warp for the agent's internal state to fully update
                     yield return new WaitForEndOfFrame();
                 }
                 else
                 {
                     // Warp can fail if the agent is not active or other issues occur
-                    Debug.LogError($"{gameObject.name}: Warp to {hit.position} FAILED! Agent might be inactive or invalid state. Disabling AI.", this);
+                    // Debug.LogError($"{gameObject.name}: Warp to {hit.position} FAILED! Agent might be inactive or invalid state. Disabling AI.", this);
                     currentState = NPCState.Initializing;
                     SetAnimatorMovement(false, false);
                     agent.isStopped = true;
@@ -145,7 +145,7 @@ public class NPCMovementAI : MonoBehaviour
             }
             else
             {
-                Debug.LogError($"{gameObject.name}: SamplePosition failed - Could not find ANY valid NavMesh position within {NAVMESH_SAMPLE_RADIUS} units of {transform.position}! Check NavMesh bake and Spawner position. Disabling AI.", this);
+                // Debug.LogError($"{gameObject.name}: SamplePosition failed - Could not find ANY valid NavMesh position within {NAVMESH_SAMPLE_RADIUS} units of {transform.position}! Check NavMesh bake and Spawner position. Disabling AI.", this);
                 currentState = NPCState.Initializing;
                 SetAnimatorMovement(false, false);
                 agent.isStopped = true;
@@ -153,12 +153,12 @@ public class NPCMovementAI : MonoBehaviour
                 yield break; // Stop if we can't get on the mesh
             }
         } else {
-             Debug.Log($"{gameObject.name}: Agent is already on NavMesh at {transform.position}.");
+             // Debug.Log($"{gameObject.name}: Agent is already on NavMesh at {transform.position}.");
         }
 
         // 4. Final Check and Start Movement
         if (!agent.isOnNavMesh) {
-            Debug.LogError($"{gameObject.name}: Agent STILL not on NavMesh after warp attempt! Disabling AI.", this);
+            // Debug.LogError($"{gameObject.name}: Agent STILL not on NavMesh after warp attempt! Disabling AI.", this);
             currentState = NPCState.Initializing;
             SetAnimatorMovement(false, false);
             agent.isStopped = true;
@@ -166,7 +166,7 @@ public class NPCMovementAI : MonoBehaviour
             yield break;
         }
 
-        Debug.Log($"{gameObject.name}: Initialization Complete. Agent is on NavMesh. Proceeding to Run state.");
+        // Debug.Log($"{gameObject.name}: Initialization Complete. Agent is on NavMesh. Proceeding to Run state.");
         isInitialized = true; // Mark initialization as complete *before* changing state
         GoToState(NPCState.RunningToInitialTarget); // Now safe to start the first state
     }
@@ -177,7 +177,7 @@ public class NPCMovementAI : MonoBehaviour
          if (!isInitialized && nextState != NPCState.RunningToInitialTarget)
          {
              // This might happen if an external script tries to change state too early
-             Debug.LogWarning($"Attempted state change to {nextState} on {gameObject.name} before initialization was complete. Ignoring.");
+             // Debug.LogWarning($"Attempted state change to {nextState} on {gameObject.name} before initialization was complete. Ignoring.");
              return;
          }
 
@@ -202,11 +202,11 @@ public class NPCMovementAI : MonoBehaviour
                 {
                     if (agent.SetDestination(initialTargetPosition))
                     {
-                         Debug.Log($"{gameObject.name}: Setting destination to {initialTargetPosition}. Agent path pending: {agent.pathPending}");
+                         // Debug.Log($"{gameObject.name}: Setting destination to {initialTargetPosition}. Agent path pending: {agent.pathPending}");
                          agent.isStopped = false; // Make sure it can move
                          SetAnimatorMovement(true, false); // Running = true
                     } else {
-                         Debug.LogError($"{gameObject.name}: SetDestination FAILED even though agent is on NavMesh! Path might be invalid. Going back to Init.", this);
+                         // Debug.LogError($"{gameObject.name}: SetDestination FAILED even though agent is on NavMesh! Path might be invalid. Going back to Init.", this);
                          // Handle this failure - maybe the target position itself is invalid?
                          isInitialized = false; // Force re-initialization attempt
                          currentState = NPCState.Initializing;
@@ -218,7 +218,7 @@ public class NPCMovementAI : MonoBehaviour
                 else
                 {
                     // This ideally shouldn't happen because of the Init coroutine, but is a safeguard
-                    Debug.LogError($"{gameObject.name}: Tried to run to target BUT agent is not on NavMesh! Critical error during state change. Going back to Init.", this);
+                    // Debug.LogError($"{gameObject.name}: Tried to run to target BUT agent is not on NavMesh! Critical error during state change. Going back to Init.", this);
                     isInitialized = false; // Force re-initialization attempt
                     currentState = NPCState.Initializing;
                     SetAnimatorMovement(false, false);
@@ -247,14 +247,14 @@ public class NPCMovementAI : MonoBehaviour
                         agent.isStopped = false;
                         SetAnimatorMovement(false, true); // Walking = true
                      } else {
-                        Debug.LogWarning($"{gameObject.name}: Failed to set wander destination {newWanderPoint}. Re-deciding.", this);
+                        // Debug.LogWarning($"{gameObject.name}: Failed to set wander destination {newWanderPoint}. Re-deciding.", this);
                         GoToState(NPCState.Wandering_Deciding); // Try again
                      }
                 }
                 else
                 {
                     // Failed to find a point or not on mesh
-                    Debug.LogWarning($"{gameObject.name}: Couldn't find wander point or not on NavMesh. Re-deciding.", this);
+                    // Debug.LogWarning($"{gameObject.name}: Couldn't find wander point or not on NavMesh. Re-deciding.", this);
                     GoToState(NPCState.Wandering_Deciding); // Revert to deciding
                 }
                 break;
@@ -262,7 +262,7 @@ public class NPCMovementAI : MonoBehaviour
         }
     }
 
-    // --- State Update Methods (Mostly unchanged, ensure they exist) ---
+    // --- State Update Methods ---
     void UpdateRunningToTargetState()
     {
         // Check if we've arrived
@@ -272,7 +272,7 @@ public class NPCMovementAI : MonoBehaviour
             // Check if velocity is near zero to confirm arrival, not just close
             if (!agent.hasPath || agent.velocity.sqrMagnitude < 0.1f)
             {
-                 Debug.Log($"{gameObject.name}: Arrived at initial target.");
+                // Debug.Log($"{gameObject.name}: Arrived at initial target.");
                 GoToState(NPCState.Wandering_Deciding); // Transition to wandering
             }
         }
@@ -317,7 +317,7 @@ public class NPCMovementAI : MonoBehaviour
     }
 
 
-    // --- Helper Functions (Unchanged, ensure they exist) ---
+    // --- Helper Functions ---
     Vector3 FindRandomPointInRadius(Vector3 center, float radius)
     {
         for (int i = 0; i < 30; i++) // Limit attempts
@@ -331,7 +331,7 @@ public class NPCMovementAI : MonoBehaviour
                 return hit.position;
             }
         }
-        Debug.LogWarning($"Could not find valid wander point near {center} after 30 attempts.");
+        // Debug.LogWarning($"Could not find valid wander point near {center} after 30 attempts.");
         return Vector3.zero; // Indicate failure
     }
 
@@ -343,7 +343,7 @@ public class NPCMovementAI : MonoBehaviour
         animator.SetBool(walkParamName, isWalking && !isRunning);
     }
 
-    // --- Gizmos (Unchanged, ensure it exists) ---
+    // --- Gizmos ---
     void OnDrawGizmosSelected()
     {
         // Draw Wander Radius around INITIAL target

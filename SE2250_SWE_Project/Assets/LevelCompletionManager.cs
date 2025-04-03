@@ -5,22 +5,17 @@ using System.Linq;    // Required for checking if any bots were found
 public class LevelCompletionManager : MonoBehaviour
 {
     [Header("Setup References")]
-    [SerializeField] private string playerTag = "Player"; // Tag of your player GameObject
     [SerializeField] private Canvas uiCanvas;             // Assign the Canvas containing the progress bar
     [SerializeField] private Image progressBarImage;      // Assign the 'Filled' Image for the progress bar
     [SerializeField] private RecruiterScript recruiter;  // Assign the GameObject with the RecruiterScript
-    [SerializeField] private Collider triggerZone;       // Assign the Collider component of your trigger zone
-
-    [Header("Timer Settings")]
-    [SerializeField] private float maxTime = 60f;         // Maximum time in seconds
-
-    [Header("Bot Detection")]
     [SerializeField] private LayerMask botLayerMask;      // IMPORTANT: Set this in the Inspector to the layer your Bots are on
     // OR uncomment the line below and assign the tag if you prefer tag checking
     // [SerializeField] private string botTag = "Bot";
 
+    [Header("Timer Settings")]
+    [SerializeField] private float maxTime = 60f;         // Maximum time in seconds
+
     private float currentTime = 0f;
-    private bool isLevelActive = false;
     private bool isTimerPaused = false;
 
     void Start()
@@ -28,7 +23,8 @@ public class LevelCompletionManager : MonoBehaviour
         // Initial setup
         if (uiCanvas != null)
         {
-            uiCanvas.gameObject.SetActive(false); // Hide UI initially
+            // Ensure canvas is active from the start
+            uiCanvas.gameObject.SetActive(true);
         }
         else
         {
@@ -52,29 +48,15 @@ public class LevelCompletionManager : MonoBehaviour
         {
             Debug.LogError("LevelCompletionManager: Recruiter Script not assigned!");
         }
-        if (triggerZone == null)
-        {
-             Debug.LogError("LevelCompletionManager: Trigger Zone Collider not assigned! Trying to get it from this GameObject.");
-             triggerZone = GetComponent<Collider>();
-             if(triggerZone == null || !triggerZone.isTrigger)
-             {
-                 Debug.LogError("LevelCompletionManager: Could not find a trigger Collider on this GameObject.");
-             }
-        }
-        else if (!triggerZone.isTrigger)
-        {
-             Debug.LogWarning("LevelCompletionManager: Assigned Trigger Zone Collider is not set to 'Is Trigger'.");
-        }
 
-        isLevelActive = false;
+        // Initialize timer state
         currentTime = 0f;
+        isTimerPaused = false;
+        UpdateProgressBar(); // Update bar to show 0% initially
     }
 
     void Update()
     {
-        // Only run logic if the level area is active
-        if (!isLevelActive) return;
-
         // Check if the timer should be paused based on bots near the recruiter
         CheckForBotsNearRecruiter();
 
@@ -93,7 +75,8 @@ public class LevelCompletionManager : MonoBehaviour
         // {
         //     Debug.Log("Level Completed!");
         //     // Add actions here: show success message, load next level, etc.
-        //     isLevelActive = false; // Stop processing after completion
+        //     // You might want to stop further updates here if the level ends
+        //     enabled = false; // Disable this script component
         // }
     }
 
@@ -116,18 +99,17 @@ public class LevelCompletionManager : MonoBehaviour
         bool botFound = false;
         foreach (Collider col in botsInRange)
         {
-            // You might not even need the tag check if the LayerMask is set correctly
-            // if (col.CompareTag(botTag)) // Uncomment if using tag check instead of/in addition to LayerMask
-            // {
-                 // Make sure we're not detecting the recruiter itself if it's on the same layer
-                if(col.transform != recruiter.transform)
-                {
+            // Ensure we're not detecting the recruiter itself if it's on the same layer
+            if(col.transform != recruiter.transform)
+            {
+                // Optional: Uncomment if using tag check instead of/in addition to LayerMask
+                // if (col.CompareTag(botTag))
+                // {
                     botFound = true;
                     break; // Found one bot, no need to check further
-                }
-            // }
+                // }
+            }
         }
-
 
         isTimerPaused = botFound;
 
@@ -144,34 +126,7 @@ public class LevelCompletionManager : MonoBehaviour
         }
     }
 
-    // --- Trigger Zone Detection ---
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag(playerTag))
-        {
-            Debug.Log("Player entered level zone.");
-            isLevelActive = true;
-            currentTime = 0f; // Reset timer on entry
-            isTimerPaused = false; // Reset pause state
-            if (uiCanvas != null)
-            {
-                uiCanvas.gameObject.SetActive(true); // Show UI
-            }
-            UpdateProgressBar(); // Update bar to show 0%
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag(playerTag))
-        {
-            Debug.Log("Player exited level zone.");
-            isLevelActive = false;
-            if (uiCanvas != null)
-            {
-                uiCanvas.gameObject.SetActive(false); // Hide UI
-            }
-        }
-    }
+    // --- Trigger Zone Detection Methods Removed ---
+    // private void OnTriggerEnter(Collider other) { ... }
+    // private void OnTriggerExit(Collider other) { ... }
 }

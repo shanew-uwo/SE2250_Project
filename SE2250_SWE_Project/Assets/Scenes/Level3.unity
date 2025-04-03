@@ -1475,10 +1475,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18b9a7b57e17a4f7f9d279ad017dc0d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  detectionRadius: 4
+  detectionRadius: 6.22
   targetLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4294967295
   rotationSpeed: 2
 --- !u!54 &227932164
 Rigidbody:
@@ -1532,11 +1532,6 @@ BoxCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 389ca3d9c9d4e4f43b89f75ba8cb2335, type: 3}
   m_PrefabInstance: {fileID: 759964022}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &241843886 stripped
-MeshCollider:
-  m_CorrespondingSourceObject: {fileID: -4651313841946347620, guid: c685db5bd3a0f9b4d8ddb667b78d772f, type: 3}
-  m_PrefabInstance: {fileID: 1028707171}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &248347704 stripped
 Transform:
@@ -2209,15 +2204,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95979a737bda049d9b76c883ce43e4e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTag: Player
   uiCanvas: {fileID: 2045769616}
   progressBarImage: {fileID: 1931614865}
   recruiter: {fileID: 227932163}
-  triggerZone: {fileID: 241843886}
-  maxTime: 60
   botLayerMask:
     serializedVersion: 2
     m_Bits: 0
+  maxTime: 60
 --- !u!4 &493858014
 Transform:
   m_ObjectHideFlags: 0
@@ -3459,7 +3452,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 389ca3d9c9d4e4f43b89f75ba8cb2335, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.93
+      value: 4.66
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 389ca3d9c9d4e4f43b89f75ba8cb2335, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5358,6 +5351,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 196034187}
     m_Modifications:
+    - target: {fileID: -4651313841946347620, guid: c685db5bd3a0f9b4d8ddb667b78d772f, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4651313841946347620, guid: c685db5bd3a0f9b4d8ddb667b78d772f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: c685db5bd3a0f9b4d8ddb667b78d772f, type: 3}
       propertyPath: m_TagString
       value: Mountain
@@ -10375,6 +10376,10 @@ PrefabInstance:
     - target: {fileID: 4246758178091360941, guid: e32fd5c3df1aa4d658cbec6dc263a455, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965958011251476767, guid: e32fd5c3df1aa4d658cbec6dc263a455, type: 3}
+      propertyPath: m_Height
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
