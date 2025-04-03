@@ -4,7 +4,7 @@ public class PlayerMovementController : MonoBehaviour
 {
     [Header("Character Attributes")]
     public float moveSpeed = 5f;
-    public float jumpForce = 5f;
+    public float jumpForce;
 
     private Vector3 moveDirection;
     private Vector3 initialPosition;
@@ -13,14 +13,19 @@ public class PlayerMovementController : MonoBehaviour
     public Rigidbody rb;
     public bool isGrounded;
 
+    [Header("Player Stats (Persistent)")]
+    public PlayerStats playerStats; // Drag in Inspector
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         initialPosition = transform.position;
         initialRotation = transform.rotation;
 
-        // Freeze rotation on X and Z axes to prevent character from spinning
         rb.freezeRotation = true;
+
+        // Load runtime jump force
+        jumpForce = playerStats.runtimeJumpForce;
     }
 
     void Update()
@@ -30,11 +35,6 @@ public class PlayerMovementController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             Jump();
-        }
-
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            BoostJumpForce(1f);
         }
     }
 
@@ -64,7 +64,6 @@ public class PlayerMovementController : MonoBehaviour
         Vector3 moveVelocity = moveDirection * moveSpeed;
         rb.linearVelocity = new Vector3(moveVelocity.x, rb.linearVelocity.y, moveVelocity.z);
 
-        // Rotate to face move direction
         if (moveDirection.magnitude > 0.1f)
         {
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection);
@@ -83,7 +82,6 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
-            Debug.Log("ground");
             isGrounded = true;
         }
 
@@ -113,6 +111,5 @@ public class PlayerMovementController : MonoBehaviour
         rb.angularVelocity = Vector3.zero;
         transform.position = initialPosition;
         transform.rotation = initialRotation;
-        Debug.Log("Player respawned at initial position.");
     }
 }

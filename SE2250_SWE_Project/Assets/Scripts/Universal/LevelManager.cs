@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 public class LevelManager : MonoBehaviour
 {
     [Header("Timer Settings")]
-    public TextMeshPro timerText; // Assign your TimerText here
+    public TextMeshPro timerText;
     private float elapsedTime = 0f;
     private bool isRunning = true;
+
+    [Header("Player Stats")]
+    public PlayerStats playerStats; // Drag your PlayerStatsAsset here
+
+    [Header("Game State")]
+    public GameState gameState; // Drag GameStateAsset here
 
     void Start()
     {
@@ -35,5 +41,29 @@ public class LevelManager : MonoBehaviour
     {
         isRunning = false;
         Debug.Log("Timer stopped at: " + timerText.text);
+        EvaluateTime();
+    }
+
+    void EvaluateTime()
+    {
+        float bonus = 0f;
+        if (elapsedTime < 20f)
+        {
+            bonus = 1f;
+            gameState.notificationMessage = "Jump Boost Upgrade: +1";
+        }
+        else if (elapsedTime >= 20f && elapsedTime <= 60f)
+        {
+            bonus = 0.75f;
+            gameState.notificationMessage = "Jump Boost Upgrade: +0.75";
+        }
+        else
+        {
+            bonus = 0.5f;
+            gameState.notificationMessage = "Jump Boost Upgrade: +0.5";
+        }
+
+        playerStats.IncreaseJumpForce(bonus);
+        gameState.showNotification = true;
     }
 }

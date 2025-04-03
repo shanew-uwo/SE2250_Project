@@ -3,11 +3,18 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "PlayerStats", menuName = "Custom/Player Stats")]
 public class PlayerStats : ScriptableObject
 {
-    public float jumpForce = 5f;
+    public float defaultJumpForce = 5f;
+    [HideInInspector]
+    public float runtimeJumpForce;
+
+    public void ResetRuntimeValues()
+    {
+        runtimeJumpForce = defaultJumpForce;
+    }
 
     public void IncreaseJumpForce(float amount)
     {
-        jumpForce += amount;
-        Debug.Log("Jump Force increased by " + amount + ". New value: " + jumpForce);
+        runtimeJumpForce += amount;
+        Debug.Log("Jump Force increased by " + amount + ". New value: " + runtimeJumpForce);
     }
 }
