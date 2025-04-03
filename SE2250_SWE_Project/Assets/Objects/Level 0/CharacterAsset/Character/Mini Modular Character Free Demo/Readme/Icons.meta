@@ -1,6 +1,13 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons.meta
 guid: 6d6c54904aa9d411eb9e170e402edb1d
 folderAsset: yes
+========
+guid: 32e56afb74082ca4c8b1768f490d90cb
+folderAsset: yes
+timeCreated: 1488630086
+licenseType: Store
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/SimplePoly City - Low Poly Assets/Materials.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
