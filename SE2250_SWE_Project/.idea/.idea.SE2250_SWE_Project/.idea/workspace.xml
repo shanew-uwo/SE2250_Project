@@ -6,17 +6,24 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/Additive.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/Additive.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/MagicCircle2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/Mask1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/Mask1.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/TechCircle2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Materials/TechCircle2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PortalToHub.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PortalToHub.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RespawnCollision.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RespawnCollision.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal1.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal2.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal3.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal4.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal4.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal5.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal5.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal6.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal6.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PortalToHub.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PortalToHub.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PushableBlock.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PushableBlock.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +34,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Portal3.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/PlayerStats.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -107,7 +114,7 @@
       <workItem from="1743030189216" duration="786000" />
       <workItem from="1743032074574" duration="95000" />
       <workItem from="1743529417398" duration="1618000" />
-      <workItem from="1743614708849" duration="6268000" />
+      <workItem from="1743614708849" duration="6795000" />
     </task>
     <servers />
   </component>
