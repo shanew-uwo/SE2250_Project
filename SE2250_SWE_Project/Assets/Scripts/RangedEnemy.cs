@@ -15,7 +15,7 @@ public class RangedEnemy : MonoBehaviour
 
     void Update()
     {
-        if (player == null) return;
+        if (player == null || gameObject == null) return;
 
         // Direction and distance to the player
         Vector3 direction = (player.position - transform.position).normalized;
@@ -38,13 +38,29 @@ public class RangedEnemy : MonoBehaviour
 
     void FireProjectile(Vector3 direction)
     {
-        Vector3 spawnPos = transform.position + direction * spawnDistance;
+        if (projectilePrefab == null)
+        {
+            Debug.LogError("Projectile Prefab is missing! Assign it in the Inspector.", this);
+            return;
+        }
 
+        Vector3 spawnPos = transform.position + direction * spawnDistance;
         GameObject proj = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
+
+        if (proj == null)
+        {
+            Debug.LogWarning("Projectile failed to instantiate.");
+            return;
+        }
+
         Rigidbody rb = proj.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.linearVelocity = direction * projectileSpeed;
+            rb.linearVelocity = direction * projectileSpeed; // Fixed 'linearVelocity' to 'velocity'
+        }
+        else
+        {
+            Debug.LogWarning("Projectile prefab is missing a Rigidbody component.", proj);
         }
     }
 }
