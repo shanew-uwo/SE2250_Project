@@ -12,17 +12,20 @@ EditorBuildSettings:
     path: Assets/Scenes/selection.unity
     guid: 3b4f1f7b6de084113affa57eb97c97bc
   - enabled: 1
-    path: Assets/Scenes/Introduction/Introduction Scene.unity
-    guid: 440c0af8f915f4b3594db15f256facc8
-  - enabled: 1
+    path: Assets/Scenes/Level3/Introduction/Introduction Scene.unity
+    guid: 91704e414d4e646b3bcf4860af744356
+  - enabled: 0
     path: Assets/Scenes/Level0.unity
     guid: 5ba3fa57b18bb4979b0c4f87b9f080db
   - enabled: 0
     path: Assets/Scenes/ChooseCharacter.unity
     guid: b5b0c99eab8f84d54996aec96a87c6f9
   - enabled: 1
-    path: Assets/Scenes/Introduction/IntroducingGame.unity
+    path: Assets/Scenes/Level3/Introduction/IntroducingGame.unity
     guid: 6daf3dd9ce54048119017f4154abe423
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: 5314a41bb0465429f999287a8cc26494
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

@@ -6,106 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d85f22-089f-4c15-adef-452f5f42a55c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old/Material.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old/Material.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old/Material/Arches.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old/Material/Arches.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old/Material/Entrance.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Old/Material/Entrance.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Trim_Mossy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Trim_Mossy.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Trim_Mossy/New Material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Altar_Ruins_FREE/Art/Textures/Trim_Mossy/New Material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio/Magic effects pack.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio/Magic effects pack.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio/Magic effects pack/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio/Magic effects pack/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio/Magic effects pack/Materials/Floor3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Hovl Studio/Magic effects pack/Materials/Floor3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Mini Modular texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Mini Modular texture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material black shirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material black shirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blond.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blond.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blue jeans.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blue jeans.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material brown hair.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material brown hair.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material orange shirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material orange shirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material white slippers.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material white slippers.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Models.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Models/mini modular demo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Models/mini modular demo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_01.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_01.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_01_colors.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_01_colors.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_02.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_02.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_02_colors.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_02_colors.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_03.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_03.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_03_colors.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Prefabs/mini modular demo_03_colors.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme/Icons.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Scenes/Mini Modular Character Free Demo Scene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 0/Mini Modular Character Free Demo/Scenes/Mini Modular Character Free Demo Scene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old/Material.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old/Material.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old/Material/Arches.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old/Material/Arches.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old/Material/Entrance.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Old/Material/Entrance.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Trim_Mossy.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Trim_Mossy.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Trim_Mossy/New Material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Altar_Ruins_FREE/Art/Textures/Trim_Mossy/New Material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio/Magic effects pack.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio/Magic effects pack.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio/Magic effects pack/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio/Magic effects pack/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio/Magic effects pack/Materials/Floor3.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Hovl Studio/Magic effects pack/Materials/Floor3.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material black shirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material black shirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blond.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blond.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blue jeans.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blue jeans.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material brown hair.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material brown hair.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material orange shirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material orange shirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material white slippers.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material white slippers.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Readme.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Readme.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Readme/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Readme/Icons.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level2/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Materials/Mini Modular texture.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Materials/Mini Modular texture.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Mini Modular basic material.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Mini Modular texture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Mini Modular texture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material black shirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material black shirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blond.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blond.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blue jeans.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material blue jeans.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material brown hair.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material brown hair.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material orange shirt.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material orange shirt.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material red hair.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material white slippers.mat.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Materials/Variations/Mini Modular material white slippers.mat.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Models.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Models/mini modular demo.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Models/mini modular demo.fbx.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_01.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_01.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_01_colors.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_01_colors.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_02.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_02.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_02_colors.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_02_colors.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_03.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_03.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_03_colors.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Prefabs/mini modular demo_03_colors.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme/Icons.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Scenes.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Scenes.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Scenes/Mini Modular Character Free Demo Scene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Modular Character Free Demo/Scenes/Mini Modular Character Free Demo Scene.unity.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelCompletionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LevelCompletionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/EnemySpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/NPCMovementAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/NPCMovementAI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +31,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/LevelCompletionBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LevelCompletionManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 3/NPCMovementAI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@15fef0f41df6/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -139,20 +45,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "level__3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;level__3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
@@ -219,6 +125,14 @@
       <workItem from="1743046096411" duration="1684000" />
       <workItem from="1743050781431" duration="624000" />
       <workItem from="1743076240841" duration="395000" />
+      <workItem from="1743597612377" duration="376000" />
+      <workItem from="1743598193633" duration="172000" />
+      <workItem from="1743607384587" duration="535000" />
+      <workItem from="1743610241592" duration="3000" />
+      <workItem from="1743612197163" duration="286000" />
+      <workItem from="1743618742039" duration="2662000" />
+      <workItem from="1743625142616" duration="3084000" />
+      <workItem from="1743634077624" duration="323000" />
     </task>
     <servers />
   </component>

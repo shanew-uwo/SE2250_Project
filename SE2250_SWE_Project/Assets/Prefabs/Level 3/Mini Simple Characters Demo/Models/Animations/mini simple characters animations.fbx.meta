@@ -621,9 +621,9 @@ ModelImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 262897
-  packageName: Mini Simple Characters | Skeleton | Free Demo
+  productId: 262799
+  packageName: Mini Simple Characters | Free Demo
   packageVersion: 1.0
-  assetPath: Assets/Mini Simple Characters Demo/Models/Animations/mini simple characters
-    animations.fbx
-  uploadId: 606480
+  assetPath: Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/mini
+    simple characters animations.fbx
+  uploadId: 606271
