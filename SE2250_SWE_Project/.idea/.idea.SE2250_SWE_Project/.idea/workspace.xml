@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c2d85f22-089f-4c15-adef-452f5f42a55c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/DialogueEditor/Example/ManIcon.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/DialogueEditor/Example/ManIcon.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
@@ -16,6 +17,11 @@
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+<<<<<<< Updated upstream
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -37,6 +44,20 @@
     &quot;accountId&quot;: &quot;cc4a88be-a796-4c2c-ac1a-71e2fd15c382&quot;
   }
 }</component>
+=======
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "aCupOfCoff33"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shanew-uwo/SE2250_Project.git",
+    "accountId": "cc4a88be-a796-4c2c-ac1a-71e2fd15c382"
+  }
+}]]></component>
+>>>>>>> Stashed changes
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/LevelCompletionBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LevelCompletionManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -56,6 +77,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< Updated upstream
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -68,21 +90,44 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "PLEASE-AARYAN-LEVEL-1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+>>>>>>> Stashed changes
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+<<<<<<< Updated upstream
       <option name="PROGRAM_PARAMETERS" value="-projectPath &quot;$PROJECT_DIR$&quot; -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
+>>>>>>> Stashed changes
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+<<<<<<< Updated upstream
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;$PROJECT_DIR$&quot; -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+=======
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
+>>>>>>> Stashed changes
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
@@ -121,6 +166,7 @@
       <created>1742320363099</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1742320363099</updated>
       <workItem from="1742320364236" duration="1000" />
       <workItem from="1743006575086" duration="42000" />
@@ -146,6 +192,15 @@
       <workItem from="1743634077624" duration="323000" />
       <workItem from="1743679306412" duration="828000" />
       <workItem from="1743683056748" duration="695000" />
+=======
+      <updated>1743013603243</updated>
+      <workItem from="1743013605514" duration="8882000" />
+      <workItem from="1743030189216" duration="786000" />
+      <workItem from="1743032074574" duration="95000" />
+      <workItem from="1743529417398" duration="1618000" />
+      <workItem from="1743614708849" duration="13400000" />
+      <workItem from="1743709931745" duration="403000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
