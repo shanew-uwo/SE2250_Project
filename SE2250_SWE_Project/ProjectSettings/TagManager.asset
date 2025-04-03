@@ -7,8 +7,14 @@ TagManager:
   - ground
   - Ground
   - Mountain
+<<<<<<< HEAD
   - Wall
   - ExitPortal
+=======
+  - Bot
+  - PEDESTAL
+  - Security Engineer
+>>>>>>> level_3
   layers:
   - Default
   - TransparentFX
