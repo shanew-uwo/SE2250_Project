@@ -72,6 +72,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mini simple demo 1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 389ca3d9c9d4e4f43b89f75ba8cb2335, type: 3}
+      propertyPath: m_TagString
+      value: Bot
+      objectReference: {fileID: 0}
     - target: {fileID: 1495186693306743793, guid: 389ca3d9c9d4e4f43b89f75ba8cb2335, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
