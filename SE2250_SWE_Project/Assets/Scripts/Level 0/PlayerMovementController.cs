@@ -36,11 +36,6 @@ public class PlayerMovementController : MonoBehaviour
         {
             Jump();
         }
-
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            BoostJumpForce(1f);
-        }
     }
 
     void FixedUpdate()
