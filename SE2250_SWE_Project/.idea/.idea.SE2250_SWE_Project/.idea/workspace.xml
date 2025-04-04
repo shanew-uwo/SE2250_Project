@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RecruiterDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RecruiterDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" afterDir="false" />
-    </list>
+    <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,6 +121,7 @@
       <workItem from="1743765690700" duration="2503000" />
       <workItem from="1743772465551" duration="4076000" />
       <workItem from="1743779943875" duration="17000" />
+      <workItem from="1743789123347" duration="16000" />
     </task>
     <servers />
   </component>
