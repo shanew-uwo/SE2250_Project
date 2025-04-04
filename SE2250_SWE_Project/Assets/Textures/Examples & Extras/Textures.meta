@@ -1,9 +1,12 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 70fab9ed84a8b4702af6669d0c4cf93d
+=======
+guid: 077e33100e0a2ce47b7fb4d1e04cbcae
+>>>>>>> Stashed changes
 folderAsset: yes
-timeCreated: 1436068007
-licenseType: Pro
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
