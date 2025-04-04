@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     private float flashTimer = 0f;
     private Color originalColor;
 
-    private void Start()
+    public virtual void Start()
     {
         currentHealth = maxHealth;
         if (damageOverlay != null)
@@ -22,7 +22,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void Update()
+    public void Update()
     {
         if (damageOverlay != null && flashTimer > 0)
         {
@@ -50,8 +50,13 @@ public class Health : MonoBehaviour
         }
     }
 
-    private void Die()
+    protected virtual void Die()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void setMaxHealth(float newMaxHealth)
+    {
+        maxHealth = newMaxHealth;
     }
 }

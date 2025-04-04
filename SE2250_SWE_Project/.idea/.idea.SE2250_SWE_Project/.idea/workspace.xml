@@ -6,9 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/EnemyAoE.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/EnemyAoE.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Level 6/AOE_Ring_Effect.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Level 6/AOE_Ring_Effect.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 0/CharacterPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 0/CharacterPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level6/RangedEnemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level6/RangedEnemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +115,8 @@
       <workItem from="1743788638483" duration="745000" />
       <workItem from="1743790224988" duration="4178000" />
       <workItem from="1743794448931" duration="461000" />
-      <workItem from="1743794928760" duration="946000" />
+      <workItem from="1743794928760" duration="2376000" />
+      <workItem from="1743798666156" duration="1584000" />
     </task>
     <servers />
   </component>

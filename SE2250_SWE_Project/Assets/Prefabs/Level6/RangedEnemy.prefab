@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RangedEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 7917947957739057326, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -66,6 +70,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7917947957739057326, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8312506041672849794}
+    - targetCorrespondingSourceObject: {fileID: 7917947957739057326, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4394537587059443897}
   m_SourcePrefab: {fileID: 100100000, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
 --- !u!95 &3002833544278862629 stripped
 Animator:
@@ -110,3 +117,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 3002833544278862629}
   speedMultiplier: 10
+--- !u!114 &4394537587059443897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360872557088599013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99780f23956ac00408649260e89ea5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  damageOverlay: {fileID: 0}
+  flashDuration: 0.2
+  enemyMaxHealth: 20
