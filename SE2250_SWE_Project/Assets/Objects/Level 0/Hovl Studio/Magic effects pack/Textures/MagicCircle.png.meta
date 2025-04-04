@@ -1,9 +1,9 @@
 fileFormatVersion: 2
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
-guid: 5ba5c742352b049ab9d8b460b80cd00f
-========
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
 guid: 3dce5bac285284a46b6cf77e52dfcd98
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
+========
+guid: 64afc5274d565354aa87d8d35186f691
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/Tree_Textures/diffuse.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -29,30 +29,30 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
-  ignoreMipmapLimit: 0
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
 ========
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
+  ignoreMipmapLimit: 0
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/Tree_Textures/diffuse.png.meta
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 1024
+  textureFormat: 1
+  maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
     filterMode: 1
     aniso: 1
     mipBias: 0
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
-========
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
     wrapU: 1
     wrapV: 1
     wrapW: 1
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
+========
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/Tree_Textures/diffuse.png.meta
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
@@ -64,11 +64,7 @@ TextureImporter:
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
-  alphaUsage: 1
-========
   alphaUsage: 2
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
   alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
@@ -80,13 +76,13 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 1
+  applyGammaDecoding: 0
   swizzle: 50462976
-  cookieLightType: 1
+  cookieLightType: 0
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -99,7 +95,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
-    maxTextureSize: 1024
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -107,14 +103,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    ignorePlatformSupport: 0
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 1024
-========
   - serializedVersion: 3
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -130,7 +121,6 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -138,7 +128,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+========
     ignorePlatformSupport: 0
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/Tree_Textures/diffuse.png.meta
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -155,30 +147,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
+  spritePackingTag: 
+========
     spriteCustomMetadata:
       entries: []
     nameFileIdTable: {}
   mipmapLimitGroupName: 
-========
-  spritePackingTag: 
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/Tree_Textures/diffuse.png.meta
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Materials/Level4/stone_floor_d.png.meta
-  productId: 20336
-  packageName: Stone Floor Texture
-  packageVersion: v1
-  assetPath: Assets/StoneFloorTexture/stone_floor_d.png
-  uploadId: 9490
-========
   productId: 247933
   packageName: Magic Effects FREE
   packageVersion: 1.3.0
   assetPath: Assets/Hovl Studio/Magic effects pack/Textures/MagicCircle.png
   uploadId: 733473
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Objects/Level 0/Hovl Studio/Magic effects pack/Textures/MagicCircle.png.meta

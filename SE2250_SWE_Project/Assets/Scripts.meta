@@ -1,17 +1,6 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
-guid: 8af5145ad520d4cb0a9c602b2cabf512
+guid: 3f5af59d6d6d734498605c34c300e727
 folderAsset: yes
-=======
-<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Textures/Examples & Extras/Scenes/12 - Link Example.unity.meta
-guid: c14d040ced1724fc2b43683f9fde0e0c
-timeCreated: 1432629665
-licenseType: Store
-========
-guid: 77db5f628bb25654a8f5cbbbceaa2561
-folderAsset: yes
->>>>>>>> development_V2:SE2250_SWE_Project/Assets/Scripts.meta
->>>>>>> development_V2
 DefaultImporter:
   externalObjects: {}
   userData: 
