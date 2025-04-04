@@ -6,26 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ConversationStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ConversationStarter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Level 3/Mini Simple Characters Demo Mat secondary.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Level 3/Mini Simple Characters Demo Mat secondary.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat beige shirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat beige shirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat black glasses frame.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat black glasses frame.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat black glasses lens.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat black glasses lens.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat blond hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat blond hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat brown hair.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat brown hair.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat red shirt.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat red shirt.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat red shoes secondary.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat red shoes secondary.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat white shoes primary.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat white shoes primary.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat white shoes secondary.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/Mini Simple Characters Demo/Materials/Material Variations/Mini Simple Characters Demo Mat white shoes secondary.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3b.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3b.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/Introduction Scene.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/Introduction Scene/SceneManagerScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/Introduction Scene/SceneManagerScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/PlayerObj.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level3/PlayerObj.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +123,7 @@
       <workItem from="1743614708849" duration="13400000" />
       <workItem from="1743758938131" duration="296000" />
       <workItem from="1743765690700" duration="2503000" />
-      <workItem from="1743772465551" duration="1752000" />
+      <workItem from="1743772465551" duration="4076000" />
     </task>
     <servers />
   </component>
