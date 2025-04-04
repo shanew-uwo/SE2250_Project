@@ -92,8 +92,9 @@ TextureImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 256389
-  packageName: Mini Modular Character | Free Demo
+  productId: 262799
+  packageName: Mini Simple Characters | Free Demo
   packageVersion: 1.0
-  assetPath: Assets/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png
-  uploadId: 600542
+  assetPath: Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character
+    Free Demo/Readme/Icons/Help_Icon.png
+  uploadId: 606271
