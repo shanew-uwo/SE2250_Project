@@ -42,7 +42,7 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
-    void SpawnEnemy()
+    public virtual void SpawnEnemy()
     {
         GameObject newEnemyGO = Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
         NPCMovementAI npcAI = newEnemyGO.GetComponent<NPCMovementAI>();

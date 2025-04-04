@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
         if (damageOverlay != null)
         {
-            originalColor = damageOverlay.color;
+            originalColor = new Color(1f, 0f, 0f, 0.4f); // red with 40% transparency
             damageOverlay.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0f); // Start invisible
         }
     }
@@ -37,10 +37,11 @@ public class Health : MonoBehaviour
         Debug.Log("Taking damage");
         currentHealth -= amount;
 
+        Debug.Log(damageOverlay != null ? "Damage overlay: " + damageOverlay.gameObject.name : "Damage overlay null");
         if (damageOverlay != null)
         {
             flashTimer = flashDuration;
-            damageOverlay.color = originalColor;
+            damageOverlay.color = new Color(originalColor.r, originalColor.g, originalColor.b, originalColor.a);
         }
 
         if (currentHealth <= 0)

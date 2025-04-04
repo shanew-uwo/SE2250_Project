@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class EnemyAoE : MonoBehaviour
 {
-    public float aoeRadius = 50f;      // Radius of AoE attack
+    public float aoeRadius = 5f;      // Radius of AoE attack
     public float aoeDamage = 20f;     // Damage dealt by AoE attack
     public float attackInterval = 3f; // Time in seconds between AoE attacks
 
@@ -33,6 +33,9 @@ public class EnemyAoE : MonoBehaviour
             // Check if the collider is an enemy, player, or anything that should take damage
             if (collider.CompareTag("Player"))
             {
+                float distance = Vector3.Distance(transform.position, collider.transform.position);
+                Debug.Log("Player hit at distance: " + distance);
+                
                 // Apply damage to the target (you can extend this to other types of objects)
                 Health targetHealth = collider.GetComponent<Health>();
                 if (targetHealth != null)
