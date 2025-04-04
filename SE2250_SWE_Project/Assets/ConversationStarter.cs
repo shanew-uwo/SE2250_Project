@@ -15,12 +15,15 @@ public class ConversationStarter : MonoBehaviour
             {
                 // Try to get the PlayerInformation component from the player's GameObject
                 PlayerInformation playerInfo = other.GetComponent<PlayerInformation>();
+                
 
                 // Check if the PlayerInformation component exists on the player object
                 if (playerInfo != null)
                 {
                     // Get the characterType value from the playerInfo component
-                    int playerCharacterType = playerInfo.characterType; // You can access the public field directly
+                    int playerCharacterType = playerInfo.characterType;
+                    bool hasPlayerTalked = playerInfo.HasTalked;
+                    // You can access the public field directly
                     // Or use the property: int playerCharacterType = playerInfo.CharacterType;
 
                     // Start the conversation
@@ -28,6 +31,7 @@ public class ConversationStarter : MonoBehaviour
 
                     // Set the integer in the ConversationManager using the value from PlayerInformation
                     ConversationManager.Instance.SetInt("characterType", playerCharacterType);
+                    ConversationManager.Instance.SetBool("hasTalked", hasPlayerTalked);
 
                     // Optional: Log for debugging to confirm the value
                     Debug.Log("Conversation started. Set characterType to: " + playerCharacterType);
