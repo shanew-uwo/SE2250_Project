@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PushableBlock : MonoBehaviour
+public class PushableBlock_Lvl4 : PushableBlock
 {
     private Rigidbody rb;
 

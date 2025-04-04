@@ -6,7 +6,7 @@ public class PlayerPush : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        PushableBlock pushable = hit.collider.GetComponent<PushableBlock>();
+        PushableBlock_Lvl4 pushable = hit.collider.GetComponent<PushableBlock_Lvl4>();
         if (pushable != null)
         {
             Vector3 pushDirection = hit.moveDirection;
