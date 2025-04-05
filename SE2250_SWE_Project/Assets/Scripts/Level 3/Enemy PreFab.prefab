@@ -1830,11 +1830,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6716943608179638399}
   - component: {fileID: 3650318564974978249}
-  - component: {fileID: 6957303883521951827}
   - component: {fileID: 4418246669958583840}
   - component: {fileID: 8543499875494396494}
   - component: {fileID: 3063842151472212306}
   - component: {fileID: 6693053993432746629}
+  - component: {fileID: 8888451336325685787}
   m_Layer: 0
   m_Name: Enemy PreFab
   m_TagString: Bot
@@ -1851,7 +1851,7 @@ Transform:
   m_GameObject: {fileID: 7552223410852339542}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.69, y: 6.2299995, z: -11.009573}
+  m_LocalPosition: {x: -2.761612, y: 1.028656, z: -19.768517}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1891,28 +1891,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &6957303883521951827
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7552223410852339542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32b5d44e4121b4242801a11fef840476, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  initialTargetDestination: {fileID: 0}
-  runningSpeed: 5
-  walkingSpeed: 2
-  wanderRadius: 5
-  wanderMinWaitTime: 2
-  wanderMaxWaitTime: 5
-  runParamName: isRunning
-  walkParamName: isWalking
-  agentUpdateRotation: 1
-  animatorApplyRootMotion: 0
 --- !u!195 &4418246669958583840
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1998,6 +1976,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  damageOverlay: {fileID: 0}
+  flashDuration: 0.2
+  recruiterBotTag: Bot
+  enemyMaxHealth: 10
+--- !u!114 &8888451336325685787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7552223410852339542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59a1c276b7e64f65a7b7341685ed0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialTargetType: 0
+  playerTag: Bot
+  fixedDestination: {fileID: 0}
+  speed: 2.5
+  stoppingDistance: 1.5
+  rotationSpeed: 120
 --- !u!1 &7888790865926642775
 GameObject:
   m_ObjectHideFlags: 0

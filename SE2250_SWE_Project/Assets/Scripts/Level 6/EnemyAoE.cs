@@ -37,11 +37,12 @@ public class EnemyAoE : MonoBehaviour
                 Debug.Log("Player hit at distance: " + distance);
                 
                 // Apply damage to the target (you can extend this to other types of objects)
-                Health targetHealth = collider.GetComponent<Health>();
+                Health targetHealth = collider.GetComponent<Health>(); // Gets the BASE Health component
                 if (targetHealth != null)
                 {
-                    targetHealth.TakeDamage(aoeDamage);
+                    targetHealth.TakeDamage(aoeDamage); // Calls TakeDamage on the Health component
                 }
+
             }
         }
 

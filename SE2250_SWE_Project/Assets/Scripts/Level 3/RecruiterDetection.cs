@@ -1,7 +1,9 @@
-// RecruiterDetection.cs
 using UnityEngine;
-using System.Collections.Generic; // Required for List
-using System.Linq; // Required for removing nulls
+using UnityEngine.UI; // << ADD THIS! (Use TMPro if using TextMeshPro)
+// using TMPro; // << OR ADD THIS if using TextMeshProUGUI
+using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 
 [RequireComponent(typeof(SphereCollider))]
 public class RecruiterDetection : MonoBehaviour
@@ -10,30 +12,43 @@ public class RecruiterDetection : MonoBehaviour
     [SerializeField] private string botTag = "Bot";
     [SerializeField] private float detectionRadius = 10.0f;
 
+    [Header("UI Interaction (Optional)")]
+    [Tooltip("Assign the instruction Text UI element here. It will be hidden after the first bot leaves the zone.")]
+    // OR Use this line instead if you use TextMeshPro:
+    [SerializeField] private TextMeshProUGUI instructionText;
+
     [Header("Status (Read Only)")]
-    [SerializeField]
-    private bool _isClearOfBotsReadOnly;
+    [SerializeField] private bool _isClearOfBotsReadOnly;
+    [SerializeField] private int _initialBotCount; // Keep track of starting count
 
-    // --- Store the actual colliders currently inside ---
+    // --- Internal State ---
     private List<Collider> botsInZone = new List<Collider>();
-
     private SphereCollider detectionSphere;
+    private bool firstBotLeft = false; // Flag to track if the first bot has left
 
-    // --- Public Property checks the LIST count ---
+    // Public Property checks the LIST count
     public bool IsClearOfBots => botsInZone.Count <= 0;
 
-    // --- Public method for bots to report they are being destroyed ---
-    // Call this EXTERNALLY before destroying a bot
     public void ReportBotLeaving(Collider botCollider)
     {
         if (botCollider != null && botsInZone.Contains(botCollider))
         {
-            botsInZone.Remove(botCollider);
-            Debug.Log($"--> Bot {botCollider.name} reported leaving/destroyed. Removing from list. Count: {botsInZone.Count}");
-            UpdateStatus(); // Update readonly status
+            bool removed = botsInZone.Remove(botCollider);
+            if (removed) // Only proceed if removal was successful
+            {
+                Debug.Log($"--> Bot {botCollider.name} reported leaving/destroyed. Removing from list. Count: {botsInZone.Count}");
+                UpdateStatus(); // Update readonly status
+
+                // --- NEW: Check if this is the first bot leaving ---
+                if (!firstBotLeft)
+                {
+                    firstBotLeft = true; // Set the flag so this only runs once
+                    HideInstructionText();
+                }
+                // ----------------------------------------------------
+            }
         }
     }
-
 
     void Awake()
     {
@@ -50,25 +65,45 @@ public class RecruiterDetection : MonoBehaviour
             return;
         }
 
-        CheckForInitialBots(); // Clear list and check at start
+        // Ensure instruction text is visible initially (optional robustness)
+        if (instructionText != null && !instructionText.gameObject.activeSelf)
+        {
+            // Only enable if there are potentially bots to kill
+             CheckForInitialBots(); // Need count before deciding
+             if (botsInZone.Count > 0)
+             {
+                  Debug.Log("Ensuring instruction text is visible at start.");
+                  instructionText.gameObject.SetActive(true);
+             }
+        } else {
+             CheckForInitialBots(); // Check normally if text is already visible or null
+        }
+
         UpdateStatus();
     }
 
-     // --- Optional: Add a periodic check for robustness ---
-    void FixedUpdate() // Use FixedUpdate for physics-related checks
+    void FixedUpdate()
     {
         // Remove any bots from the list that were destroyed unexpectedly
-        // (e.g., if ReportBotLeaving wasn't called correctly)
         int removedCount = botsInZone.RemoveAll(botCollider => botCollider == null || !botCollider.gameObject.activeInHierarchy);
         if (removedCount > 0)
         {
-             Debug.LogWarning($"RecruiterDetection: Removed {removedCount} null or inactive bots from tracking list.");
-             UpdateStatus();
+            Debug.LogWarning($"RecruiterDetection: Removed {removedCount} null or inactive bots from tracking list via FixedUpdate.");
+            UpdateStatus();
+
+            // --- NEW: Also check here if first bot left unexpectedly ---
+            if (!firstBotLeft && botsInZone.Count < _initialBotCount) // Check against initial count
+            {
+                 firstBotLeft = true;
+                 HideInstructionText();
+                 Debug.Log("First bot removal detected via FixedUpdate cleanup.");
+            }
+            // ---------------------------------------------------------
         }
     }
 
-
-    void OnValidate()
+    // --- Other methods (OnValidate, OnTriggerEnter, OnTriggerExit, LogBotStatus, OnDrawGizmosSelected) remain the same ---
+     void OnValidate()
     {
         if (detectionSphere == null) detectionSphere = GetComponent<SphereCollider>();
         if (detectionSphere != null) detectionSphere.radius = detectionRadius;
@@ -89,12 +124,13 @@ public class RecruiterDetection : MonoBehaviour
                 }
             }
         }
-        LogBotStatus($"Initial Check. Bots found: {botsInZone.Count}");
+        // Store initial count AFTER checking
+        _initialBotCount = botsInZone.Count;
+        LogBotStatus($"Initial Check. Bots found: {_initialBotCount}");
     }
 
     void OnTriggerEnter(Collider other)
     {
-        // Debug.Log($"TRIGGER ENTER detected: {other.name} with tag '{other.tag}'");
         if (other.CompareTag(botTag))
         {
             if (!botsInZone.Contains(other)) // Add only if not already present
@@ -108,19 +144,16 @@ public class RecruiterDetection : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        // Debug.Log($"TRIGGER EXIT detected: {other.name} with tag '{other.tag}'");
         if (other.CompareTag(botTag))
         {
-            // Use the public method to handle removal consistently
             ReportBotLeaving(other);
-            // Note: UpdateStatus() is called within ReportBotLeaving
-            // LogBotStatus($"---> Bot Exited: {other.name}. Count: {botsInZone.Count}"); // Log already in ReportBotLeaving
         }
     }
 
     void UpdateStatus()
     {
         _isClearOfBotsReadOnly = IsClearOfBots;
+        // Note: We don't update _initialBotCount here, only in CheckForInitialBots
     }
 
     void LogBotStatus(string messagePrefix = "")
@@ -134,4 +167,21 @@ public class RecruiterDetection : MonoBehaviour
         Gizmos.color = IsClearOfBots ? Color.green : Color.red;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);
     }
+    // ----------------------------------------------------------------------------------
+
+
+    // --- NEW METHOD to hide the text ---
+    private void HideInstructionText()
+    {
+        if (instructionText != null)
+        {
+            Debug.Log($"First bot left/destroyed. Hiding instruction text: {instructionText.name}");
+            instructionText.gameObject.SetActive(false); // Disable the GameObject the Text component is on
+        }
+        else
+        {
+            Debug.LogWarning("Tried to hide instruction text, but no Text component was assigned in the Inspector!", this);
+        }
+    }
+    // ---------------------------------
 }

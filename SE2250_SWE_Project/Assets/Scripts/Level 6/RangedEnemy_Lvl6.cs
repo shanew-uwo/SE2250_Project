@@ -1,31 +1,49 @@
 using UnityEngine;
 
+// Add RequireComponent to ensure EnemyMovementAI exists
+// If EnemyMovementAI is still in a namespace: using Common_Implementations;
+[RequireComponent(typeof(EnemyMovementAI))] // Or Common_Implementations.EnemyMovementAI
 public class RangedEnemy_Lvl6 : MonoBehaviour
 {
-    public Transform player;
     public GameObject projectilePrefab;
-    public float moveSpeed = 2f;
     public float projectileSpeed = 5f;
     public float fireRate = 1f;
-    public float spawnDistance = 1f;
+    [Tooltip("How far from the enemy's center the projectile should spawn.")]
+    public float projectileSpawnOffset = 1f;
+    [Tooltip("Maximum distance at which the enemy will fire.")]
     public float fireDistance = 15f;
 
     private float fireCooldown;
+    private EnemyMovementAI movementAI; // Or Common_Implementations.EnemyMovementAI
+    public Transform player;
+
+    // --- REMOVE THESE LINES ---
+    // public Transform player;
+    // --------------------------
+
+    void Awake()
+    {
+        movementAI = GetComponent<EnemyMovementAI>(); // Or Common_Implementations.EnemyMovementAI
+        if (movementAI == null)
+        {
+            Debug.LogError($"RangedEnemy_Lvl6 on {name} requires an EnemyMovementAI component!", this);
+            enabled = false;
+        }
+        if (projectilePrefab == null)
+        {
+            Debug.LogError($"RangedEnemy_Lvl6 on {name} is missing the Projectile Prefab!", this);
+            enabled = false;
+        }
+    }
 
     void Update()
     {
-        if (player == null) return;
+        Transform currentTarget = movementAI.GetCurrentTarget();
+        if (currentTarget == null) return;
 
-        Vector3 direction = (player.position - transform.position).normalized;
-        float distance = Vector3.Distance(player.position, transform.position);
-
-        Vector3 lookTarget = new Vector3(player.position.x, transform.position.y, player.position.z);
-        transform.LookAt(lookTarget);
-        
-        if (distance > spawnDistance + 0.5f)
-        {
-            transform.position += direction * moveSpeed * Time.deltaTime;
-        }
+        Vector3 direction = (currentTarget.position - transform.position);
+        float distance = direction.magnitude;
+        direction.Normalize(); // Normalize AFTER distance check
 
         if (distance <= fireDistance)
         {
@@ -36,12 +54,13 @@ public class RangedEnemy_Lvl6 : MonoBehaviour
                 fireCooldown = 1f / fireRate;
             }
         }
+        // Removed redundant else block, cooldown handled above
     }
 
     void FireProjectile(Vector3 direction)
     {
-        Vector3 spawnPos = transform.position + direction * spawnDistance;
-        GameObject proj = Instantiate(projectilePrefab, spawnPos, Quaternion.identity);
+        Vector3 spawnPos = transform.position + direction * projectileSpawnOffset;
+        GameObject proj = Instantiate(projectilePrefab, spawnPos, Quaternion.LookRotation(direction));
 
         EnemyProjectile_Lvl6 projectileScript = proj.GetComponent<EnemyProjectile_Lvl6>();
         if (projectileScript != null)
@@ -50,14 +69,20 @@ public class RangedEnemy_Lvl6 : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Projectile script not found on projectile prefab.");
+            Debug.LogError($"Projectile script 'EnemyProjectile_Lvl6' not found on prefab '{projectilePrefab.name}'. Trying Rigidbody launch.", proj);
+            Rigidbody rb = proj.GetComponent<Rigidbody>();
+            if(rb != null) {
+                rb.linearVelocity = direction * projectileSpeed;
+            } else {
+                Debug.LogError($"Projectile prefab '{projectilePrefab.name}' also missing Rigidbody.", proj);
+            }
         }
-        
-        projectileScript.Launch(direction, projectileSpeed);
     }
 
-    public void setPlayer(Transform player)
-    {
-        this.player = player;
-    }
+    // --- REMOVE THIS METHOD ---
+    // public void setPlayer(Transform p0)
+    // {
+    //     throw new System.NotImplementedException();
+    // }
+    // --------------------------
 }

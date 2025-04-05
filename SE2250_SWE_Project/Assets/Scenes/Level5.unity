@@ -290,9 +290,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -369,9 +377,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -448,9 +464,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1017,9 +1041,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1199,9 +1231,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1278,9 +1318,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1847,9 +1895,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1894,30 +1950,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 307250644}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
---- !u!1 &307250643 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
-  m_PrefabInstance: {fileID: 307250642}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &307250644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 307250643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 945ca7504926be2449552673afea5e46, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  detectionRadius: 10
-  playerTag: Player
 --- !u!1001 &312151362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2459,9 +2493,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2610,9 +2652,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3160,9 +3210,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3513,9 +3571,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4387,9 +4453,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4949,9 +5023,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5217,9 +5299,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6075,9 +6165,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7151,9 +7249,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7480,9 +7586,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7652,9 +7766,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8271,9 +8393,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9390,9 +9520,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11659,9 +11797,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12369,9 +12515,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 625226793821543212, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: initialTargetType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_Name
       value: RangedEnemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 9172735018343313759, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
       propertyPath: m_LocalPosition.x

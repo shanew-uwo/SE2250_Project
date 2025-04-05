@@ -44,7 +44,7 @@ public class RangedEnemySpawner : MonoBehaviour
         RangedEnemy_Lvl6 script = enemy.GetComponent<RangedEnemy_Lvl6>();
         if (script != null)
         {
-            script.player = player;
+            //script.player = player;
         }
         else
         {
