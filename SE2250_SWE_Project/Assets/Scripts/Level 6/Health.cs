@@ -22,7 +22,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    public void Update()
+    public virtual void Update()
     {
         if (damageOverlay != null && flashTimer > 0)
         {
@@ -32,7 +32,7 @@ public class Health : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float amount)
+    public virtual void TakeDamage(float amount)
     {
         Debug.Log("Taking damage");
         currentHealth -= amount;
