@@ -6,21 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy PreFab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy PreFab.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 3/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 3/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3b.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3b.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemyMovementAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemyMovementAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemySpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemySpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/GameResetter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/GameResetter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/RecruiterDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/RecruiterDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 5/Level5EnemyDetection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 5/Level5EnemyDetection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/RangedEnemy_Lvl6.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/RangedEnemy_Lvl6.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/LevelCompletion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/LevelCompletion.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +134,7 @@
       <workItem from="1743810368513" duration="8000" />
       <workItem from="1743810410960" duration="24000" />
       <workItem from="1743812646805" duration="23000" />
-      <workItem from="1743863002503" duration="8476000" />
+      <workItem from="1743863002503" duration="10220000" />
     </task>
     <servers />
   </component>
