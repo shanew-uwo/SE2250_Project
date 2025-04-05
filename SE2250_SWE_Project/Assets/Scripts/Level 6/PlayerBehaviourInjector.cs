@@ -1,5 +1,6 @@
 using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
+using UnityEngine.UI;
 using Image = UnityEngine.UI.Image;
 
 public class PlayerBehaviorInjector : MonoBehaviour
@@ -14,6 +15,14 @@ public class PlayerBehaviorInjector : MonoBehaviour
     void Start()
     {
         GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+
+        // Find the UIManager object and HealthBarUI script (optional but recommended)
+        GameObject uiManagerGO = GameObject.Find("UIManager");
+        HealthBarUI healthBarUI = null;
+        if (uiManagerGO != null)
+        {
+            healthBarUI = uiManagerGO.GetComponent<HealthBarUI>();
+        }
 
         foreach (GameObject player in players)
         {
@@ -45,19 +54,19 @@ public class PlayerBehaviorInjector : MonoBehaviour
             lr.material = lineMaterial;
             lr.enabled = false;
 
-            // Assign to the AOE attack script
             attack.lineRenderer = lr;
 
-            // Ensure Health component
+            // Add or get Health component
             Health health = player.GetComponent<Health>();
             if (health == null)
             {
                 health = player.AddComponent<Health>();
             }
 
-            // Find canvas and assign DamageOverlay
+            // Assign damage overlay
             GameObject canvas = GameObject.Find("Canvas");
-            if (canvas != null)
+            Transform overlayTransform = canvas?.transform.Find("DamageOverlay");
+            if (overlayTransform != null)
             {
                 Transform overlayTransform = canvas.transform.Find("DamageOverlay");
                 if (overlayTransform != null)
@@ -73,6 +82,16 @@ public class PlayerBehaviorInjector : MonoBehaviour
             else
             {
                 Debug.LogWarning("Canvas not found in scene.");
+            }
+
+            // 👉 Assign to UIManager’s HealthBarUI
+            if (healthBarUI != null)
+            {
+                healthBarUI.playerHealth = health;
+            }
+            else
+            {
+                Debug.LogWarning("UIManager or HealthBarUI not found. Player health bar not assigned.");
             }
         }
     }

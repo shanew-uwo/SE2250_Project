@@ -6,14 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddOns/Mg3D_Hats.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddOns/Mg3D_Hats.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddOns/Mg3D_Hats/Hats_ReadMe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddOns/Mg3D_Hats/Hats_ReadMe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blue.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blue.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Green.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Green.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/selection.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/selection.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSelection.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/ConversationStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/ConversationStarter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/PlayerInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/PlayerInformation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/BossHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/BossHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/PlayerBehaviourInjector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/PlayerBehaviourInjector.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@15fef0f41df6/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@603b5c2e4e5a/Runtime/TMP/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="false" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 0
@@ -60,7 +57,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Merging-Aaryan-New-Level-3-into-Dev-Final&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;level__6__V2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -72,7 +69,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -80,7 +77,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -142,6 +139,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="false" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />

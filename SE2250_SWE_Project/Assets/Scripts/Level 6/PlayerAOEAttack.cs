@@ -18,13 +18,17 @@ public class PlayerAOEAttack : MonoBehaviour
 
     private Gradient currentGradient;
     private float cooldownTimer = 0f;
-    private int currentIndex = 0;
+    private string currentSkill = "Skill 1";
+    
+    private BossHealth bossHealth;
 
     void Start()
     {
         // Default to the first color if available
         if (aoeColors.Length > 0)
             currentGradient = aoeColors[0];
+        
+        bossHealth = GameObject.FindGameObjectWithTag("Boss").GetComponent<BossHealth>();
     }
 
     void Update()
@@ -49,7 +53,12 @@ public class PlayerAOEAttack : MonoBehaviour
         if (index >= 0 && index < aoeColors.Length)
         {
             currentGradient = aoeColors[index];
-            currentIndex = index;
+            if (bossHealth != null)
+            {
+                bossHealth.playerSkill = skillNames[index];
+                Debug.Log(bossHealth.playerSkill);
+            }
+
             Debug.Log("AOE color changed to preset #" + (index + 1));
         }
     }
@@ -59,7 +68,7 @@ public class PlayerAOEAttack : MonoBehaviour
         Collider[] hits = Physics.OverlapSphere(transform.position, aoeRadius);
         foreach (Collider hit in hits)
         {
-            if (hit.CompareTag("Enemy"))
+            if (hit.CompareTag("Enemy") || hit.CompareTag("Boss"))
             {
                 Health health = hit.GetComponent<Health>();
                 if (health != null)
