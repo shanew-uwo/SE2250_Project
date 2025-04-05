@@ -119,6 +119,8 @@ public class BlockTracker : MonoBehaviour
         
         // ✅ Tell the countdown timer to stop
         FindObjectOfType<CountdownTimer>().gameWon = true;
+        
+        SceneManager.LoadScene("Level0"); 
     }
 
     private void ShowLoseMessage()
