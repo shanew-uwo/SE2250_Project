@@ -75,7 +75,7 @@ public class NPCInteraction : MonoBehaviour
             }
             else
             {
-                feedbackText.text = "You need more skills to proceed.";  // Failure message
+                feedbackText.text = "Your resume isn't strong enough, you need more skills to proceed.";  // Failure message
                 Debug.Log("Player is missing required skills.");
                 // List missing skills or show a hint for the player
             }

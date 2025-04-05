@@ -7,7 +7,7 @@ public class ToHubJade : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(0); // Load Hub scene immediately
+            SceneManager.LoadScene(1); // Load Hub scene immediately
         }
     }
 }
