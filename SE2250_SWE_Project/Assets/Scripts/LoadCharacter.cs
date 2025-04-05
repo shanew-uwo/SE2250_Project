@@ -16,4 +16,19 @@ public class LoadCharacter : MonoBehaviour
 		GameObject clone = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
 		label.text = prefab.name;
 	}
+
+public void LoadCharacterManually(GameObject prefab, Vector3 position, Quaternion rotation)
+{
+    GameObject clone = Instantiate(prefab, position, rotation);
+    clone.tag = "Player";
+
+    if (label != null)
+    {
+        label.text = prefab.name;
+    }
+    else
+    {
+        Debug.LogWarning("[LoadCharacter] Label is not assigned.");
+    }
+}
 }
