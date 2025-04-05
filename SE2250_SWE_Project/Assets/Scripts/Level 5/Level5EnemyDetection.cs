@@ -33,17 +33,20 @@ public class Level5EnemyDetection : MonoBehaviour
 
         float distance = Vector3.Distance(transform.position, player.position);
 
-        if (distance <= detectionRadius && rangedEnemy.player == null)
-        {
-            rangedEnemy.setPlayer(player);
-        }
-        else if (distance > detectionRadius && rangedEnemy.player != null)
-        {
-            rangedEnemy.setPlayer(null);
-        }
+        // --- DELETE THESE OBSOLETE LINES ---
+        // if (distance <= detectionRadius && rangedEnemy.player == null)
+        // {
+        //     rangedEnemy.setPlayer(player);
+        // }
+        // else if (distance > detectionRadius && rangedEnemy.player != null)
+        // {
+        //     rangedEnemy.setPlayer(null);
+        // }
+        // --- END DELETED LINES ---
     }
 
-    void OnDrawGizmosSelected()
+    // --- CORRECTED METHOD SIGNATURE ---
+    void OnDrawGizmosSelected() // Added 'void' and '()'
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, detectionRadius);

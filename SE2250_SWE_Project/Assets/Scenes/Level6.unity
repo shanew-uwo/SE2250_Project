@@ -208,9 +208,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 86836658}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9132d22a5036416fa779f8a9130db05, type: 3}
+  m_Script: {fileID: 11500000, guid: b59a1c276b7e64f65a7b7341685ed0d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  detectionRadius: 10
+  playerTag: Player
+  fixedDestination: {fileID: 0}
+  speed: 2
+  stoppingDistance: 1.5
+  rotationSpeed: 120
 --- !u!114 &86836662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,6 +371,7 @@ MonoBehaviour:
   maxHealth: 100
   damageOverlay: {fileID: 0}
   flashDuration: 0.2
+  recruiterBotTag: Bot
 --- !u!65 &86836669
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -397,6 +404,10 @@ PrefabInstance:
     - target: {fileID: 277932182893781930, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
       propertyPath: m_Name
       value: RangedEnemySpawnerLvl6
+      objectReference: {fileID: 0}
+    - target: {fileID: 277932182893781930, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
+      propertyPath: m_TagString
+      value: Bot
       objectReference: {fileID: 0}
     - target: {fileID: 7810523213775541325, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -446,10 +457,18 @@ PrefabInstance:
       propertyPath: maxEnemies
       value: 10
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8918715318593555893, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
+      propertyPath: rangedEnemyPrefab
+      value: 
+      objectReference: {fileID: 265869629}
+    m_RemovedComponents:
+    - {fileID: 8918715318593555893, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 277932182893781930, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 779255083}
   m_SourcePrefab: {fileID: 100100000, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
 --- !u!1 &195063200
 GameObject:
@@ -544,6 +563,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &265869629 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8360872557088599013, guid: cb45fc367fa317c4d8e9d2ad03de9413, type: 3}
+  m_PrefabInstance: {fileID: 2109978048}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &779255080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 277932182893781930, guid: f3303e0b86f8ded45a8d505bb4a4b4e5, type: 3}
+  m_PrefabInstance: {fileID: 146240593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &779255083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779255080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2f22e471942242608dc6201efa863c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyPrefab: {fileID: 265869629}
+  spawnedEnemyTag: Bot
+  _targetDestination: {fileID: 0}
+  _minimumSpawnTime: 2
+  _maximumSpawnTime: 5
 --- !u!1001 &862711440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1048,6 +1094,14 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Enemy
       objectReference: {fileID: 0}
+    - target: {fileID: 1043830259349886573, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
+      propertyPath: m_TagString
+      value: Bot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3659736991398420435, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
+      propertyPath: m_TagString
+      value: Bot
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
       propertyPath: m_Controller
       value: 
@@ -1128,6 +1182,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2385477fbef8bcf44a2880088794f000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerMaxHealth: 100
+  playerTag: Player
+  playerAoeRadius: 5
+  playerAoeDamage: 25
+  playerAoeCooldown: 0.7
+  playerAoeTargetTag: Bot
+  playerAoeKey: 113
   greenGradient:
     serializedVersion: 2
     key0: {r: 0.018346548, g: 1, b: 0, a: 1}
@@ -1249,6 +1310,8 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
   lineMaterial: {fileID: 2100000, guid: b0c801de06e9837419f5aa87ed55c590, type: 2}
+  canvasName: Canvas
+  damageOverlayName: DamageOverlay
 --- !u!1001 &2109978048
 PrefabInstance:
   m_ObjectHideFlags: 0

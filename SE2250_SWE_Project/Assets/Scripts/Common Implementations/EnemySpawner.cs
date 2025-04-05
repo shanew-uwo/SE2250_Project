@@ -1,104 +1,75 @@
 using UnityEngine;
 using System.Collections;
-using Common_Implementations;
+// Add namespace if used by EnemyMovementAI
+// using Common_Implementations;
 
 public class EnemySpawner : MonoBehaviour
 {
     [Header("Spawning Setup")]
-    [SerializeField] private GameObject _enemyPrefab; // Your Bot Prefab Variant
-    [Tooltip("Tag the spawned enemies/bots with this tag.")]
-    [SerializeField] private string spawnedEnemyTag = "Bot"; // Ensure this matches RecruiterDetection and PlayerAOEAttack
+    [SerializeField] private GameObject _enemyPrefab;
+    [SerializeField] private string spawnedEnemyTag = "Bot";
 
-    [Header("Targeting for Spawned Enemies")]
-    [Tooltip("Should spawned enemies move towards the Player or the Destination Object?")]
-    [SerializeField] private EnemyMovementAI.TargetType enemyTargetType = EnemyMovementAI.TargetType.DestinationObject;
-    [Tooltip("Assign the Pedestal (or target object) if Enemy Target Type is DestinationObject.")]
-    [SerializeField] private Transform _targetDestination; // Assign HERE IN INSPECTOR!
+    [Header("Spawner Settings")]
+    [Tooltip("Assign the object enemies should return to when idle (e.g., Pedestal). Leave None to have them stand still or return to spawn.")]
+    [SerializeField] private Transform _targetDestination; // This is the IDLE destination
 
     [Header("Spawn Timing")]
     [SerializeField] private float _minimumSpawnTime = 2.0f;
     [SerializeField] private float _maximumSpawnTime = 5.0f;
 
     private float _currentSpawnTimer;
-    private Transform _playerTransform; // Cache player reference
+    // No longer need spawner to track player or target type
+    // private Transform _playerTransform;
+    // private EnemyMovementAI.TargetType enemyTargetType;
 
     void Awake()
     {
-        // --- KEEP THESE CHECKS ---
-        // Adjust check based on selected target type
-        if (enemyTargetType == EnemyMovementAI.TargetType.DestinationObject && _targetDestination == null)
-        { Debug.LogError($"Spawner '{gameObject.name}' needs a Target Destination assigned (Enemy Target Type is DestinationObject)!", this); this.enabled = false; return; }
-
-        if (_enemyPrefab == null)
-        { Debug.LogError($"Spawner '{gameObject.name}' needs an Enemy Prefab assigned!", this); this.enabled = false; return; }
-
-        // Find player once if needed
-        if (enemyTargetType == EnemyMovementAI.TargetType.Player)
+        // Simplified Checks
+        if (_targetDestination == null)
         {
-            FindPlayer();
-            if (_playerTransform == null)
-            {
-                Debug.LogError($"Spawner '{gameObject.name}' is set to spawn enemies targeting Player, but no GameObject with tag 'Player' found!", this);
-                // Optionally disable, or enemies will search themselves
-                 // this.enabled = false; return;
-            }
+            // This is now more informational, as AI can handle null destination
+            Debug.Log($"Spawner '{gameObject.name}' does not have a Target Destination assigned. Idle enemies may stand still or use spawn point.", this);
+        }
+        if (_enemyPrefab == null)
+        {
+            Debug.LogError($"Spawner '{gameObject.name}' needs an Enemy Prefab assigned!", this); this.enabled = false; return;
+        }
+        if (_enemyPrefab.GetComponent<EnemyMovementAI>() == null) // Or Namespace.EnemyMovementAI
+        {
+             Debug.LogError($"Enemy Prefab assigned to Spawner '{gameObject.name}' is MISSING the EnemyMovementAI script!", _enemyPrefab); this.enabled = false; return;
         }
 
-        // --- Set initial timer ---
         ResetSpawnTimer();
-        Debug.Log($"Spawner '{gameObject.name}' initialized. First spawn in ~{_currentSpawnTimer:F1}s. Targeting: {enemyTargetType}");
+        Debug.Log($"Spawner '{gameObject.name}' initialized. First spawn in ~{_currentSpawnTimer:F1}s.");
     }
 
     void Update()
     {
         _currentSpawnTimer -= Time.deltaTime;
-
         if (_currentSpawnTimer <= 0f)
         {
-            // Re-check for player just before spawning if targeting player
-            // This handles cases where the player might have been destroyed/respawned
-             if (enemyTargetType == EnemyMovementAI.TargetType.Player && _playerTransform == null)
-             {
-                 FindPlayer();
-                 if (_playerTransform == null)
-                 {
-                    Debug.LogWarning($"Spawner '{gameObject.name}': Skipping spawn, cannot find Player target.");
-                    ResetSpawnTimer(); // Still reset timer to avoid spamming checks
-                    return; // Don't spawn if player not found
-                 }
-             }
-
             SpawnEnemy();
             ResetSpawnTimer();
         }
     }
 
-    void FindPlayer()
-    {
-        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
-        _playerTransform = playerObj ? playerObj.transform : null;
-    }
+    // Removed FindPlayer
 
-    public virtual void SpawnEnemy() // Keep virtual if you might subclass spawner
+    public virtual void SpawnEnemy()
     {
         GameObject newEnemyGO = Instantiate(_enemyPrefab, transform.position, Quaternion.identity);
-        newEnemyGO.tag = spawnedEnemyTag; // Apply the specified tag
+        newEnemyGO.tag = spawnedEnemyTag;
 
-        EnemyMovementAI npcAI = newEnemyGO.GetComponent<EnemyMovementAI>();
+        EnemyMovementAI npcAI = newEnemyGO.GetComponent<EnemyMovementAI>(); // Or Namespace.EnemyMovementAI
 
+        // --- Configure the newly spawned enemy ---
         if (npcAI != null)
         {
-            // Set the target based on the spawner's setting
-            if (enemyTargetType == EnemyMovementAI.TargetType.Player)
-            {
-                npcAI.SetTarget(_playerTransform, EnemyMovementAI.TargetType.Player);
-                 Debug.Log($"Spawner '{gameObject.name}' assigned Player target to spawned enemy '{newEnemyGO.name}'.", newEnemyGO);
-            }
-            else // DestinationObject
-            {
-                npcAI.SetTarget(_targetDestination, EnemyMovementAI.TargetType.DestinationObject);
-                 Debug.Log($"Spawner '{gameObject.name}' assigned Destination target '{_targetDestination.name}' to spawned enemy '{newEnemyGO.name}'.", newEnemyGO);
-            }
+            // *** CHANGE HERE: Call AssignFixedDestination ***
+            // Pass the pedestal (or null if none assigned) to the AI.
+            // The AI will use this when the player is NOT detected.
+            npcAI.AssignFixedDestination(_targetDestination);
+            // *** END CHANGE ***
         }
         else
         {
@@ -106,20 +77,11 @@ public class EnemySpawner : MonoBehaviour
         }
 
         // --- Optional: Configure other components ---
-        // Example: Set health on the enemy if prefab doesn't have it set right
         Health enemyHealth = newEnemyGO.GetComponent<Health>();
-        if (enemyHealth != null) {
-             // enemyHealth.SetMaxHealth(50f); // Example: Override prefab health
-        } else {
+        if (enemyHealth == null) {
              Debug.LogWarning($"Spawned enemy '{newEnemyGO.name}' is MISSING a Health component!", newEnemyGO);
         }
-
-        // Example: If using RangedEnemy_Lvl6, ensure it also gets the player ref IF needed
-        RangedEnemy_Lvl6 rangedAttack = newEnemyGO.GetComponent<RangedEnemy_Lvl6>();
-        if (rangedAttack != null && enemyTargetType == EnemyMovementAI.TargetType.Player) {
-            rangedAttack.player = _playerTransform; // Assign player specifically for attack logic
-             // OR modify RangedEnemy_Lvl6 to get target from EnemyMovementAI.GetCurrentTarget()
-        }
+        // Removed RangedEnemy_Lvl6 specific code - that script gets target from EnemyMovementAI now
     }
 
     private void ResetSpawnTimer()
