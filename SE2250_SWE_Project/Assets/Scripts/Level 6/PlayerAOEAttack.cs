@@ -5,7 +5,7 @@ public class PlayerAOEAttack : MonoBehaviour
     [Header("AOE Settings")]
     public float aoeRadius = 5f;
     public float aoeDamage = 20f;
-    public float cooldown = 3f;
+    public float cooldown = 0.5f;
 
     [Header("Line Renderer Settings")]
     public LineRenderer lineRenderer;
@@ -14,9 +14,11 @@ public class PlayerAOEAttack : MonoBehaviour
 
     [Header("AOE Color Presets")]
     public Gradient[] aoeColors = new Gradient[4]; // Set in Inspector
+    public string[] skillNames = {"Skill 1", "Skill 2", "Skill 3", "Skill 4"};
 
     private Gradient currentGradient;
     private float cooldownTimer = 0f;
+    private int currentIndex = 0;
 
     void Start()
     {
@@ -47,6 +49,7 @@ public class PlayerAOEAttack : MonoBehaviour
         if (index >= 0 && index < aoeColors.Length)
         {
             currentGradient = aoeColors[index];
+            currentIndex = index;
             Debug.Log("AOE color changed to preset #" + (index + 1));
         }
     }
