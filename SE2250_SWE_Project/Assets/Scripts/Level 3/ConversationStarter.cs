@@ -21,7 +21,7 @@ public class ConversationStarter : MonoBehaviour
                 if (playerInfo != null)
                 {
                     // Get the characterType value from the playerInfo component
-                    int playerCharacterType = playerInfo.characterType;
+                    int playerCharacterType = playerInfo.CharacterType;
                     bool hasPlayerTalked = playerInfo.HasTalked;
                     // You can access the public field directly
                     // Or use the property: int playerCharacterType = playerInfo.CharacterType;
