@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a500a113d79384d219d3ff26e1955996
+guid: 69ce5dd747afb75488c00ed0f554f1d6
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 9100000
@@ -11,6 +11,6 @@ AssetOrigin:
   productId: 262799
   packageName: Mini Simple Characters | Free Demo
   packageVersion: 1.0
-  assetPath: Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/Mini
-    simple Characters Animation Controller Demo.controller
+  assetPath: Assets/Mini Simple Characters Demo/Models/Animations/Mini simple Characters
+    Animation Controller Demo.controller
   uploadId: 606271

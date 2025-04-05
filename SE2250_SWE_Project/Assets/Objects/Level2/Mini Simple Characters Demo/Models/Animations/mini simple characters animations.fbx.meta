@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 780f4506aaae14fb4a5d890bfa551442
+guid: e5901ce40e7bc6f45be465c564aa05e0
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -624,6 +624,6 @@ AssetOrigin:
   productId: 262799
   packageName: Mini Simple Characters | Free Demo
   packageVersion: 1.0
-  assetPath: Assets/Prefabs/Level 3/Mini Simple Characters Demo/Models/Animations/mini
-    simple characters animations.fbx
+  assetPath: Assets/Mini Simple Characters Demo/Models/Animations/mini simple characters
+    animations.fbx
   uploadId: 606271
