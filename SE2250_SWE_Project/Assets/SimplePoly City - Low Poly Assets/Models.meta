@@ -1,9 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:SE2250_SWE_Project/Assets/Scripts.meta
+guid: f116507a863632d4f949dd07557aeb7b
+folderAsset: yes
+========
 guid: fac5102d6ee34954fb147ea5cb33d8d5
 folderAsset: yes
 timeCreated: 1488630086
 licenseType: Store
+>>>>>>>> level_5:SE2250_SWE_Project/Assets/SimplePoly City - Low Poly Assets/Models.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
