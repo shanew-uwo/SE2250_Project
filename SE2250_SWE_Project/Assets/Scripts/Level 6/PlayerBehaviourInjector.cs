@@ -68,12 +68,20 @@ public class PlayerBehaviorInjector : MonoBehaviour
             Transform overlayTransform = canvas?.transform.Find("DamageOverlay");
             if (overlayTransform != null)
             {
-                Image damageOverlay = overlayTransform.GetComponent<Image>();
-                health.damageOverlay = damageOverlay;
+                Transform overlayTransform = canvas.transform.Find("DamageOverlay");
+                if (overlayTransform != null)
+                {
+                    Image damageOverlay = overlayTransform.GetComponent<Image>();
+                    health.damageOverlay = damageOverlay;
+                }
+                else
+                {
+                    Debug.LogWarning("DamageOverlay image not found under Canvas.");
+                }
             }
             else
             {
-                Debug.LogWarning("DamageOverlay image not found under Canvas.");
+                Debug.LogWarning("Canvas not found in scene.");
             }
 
             // 👉 Assign to UIManager’s HealthBarUI
