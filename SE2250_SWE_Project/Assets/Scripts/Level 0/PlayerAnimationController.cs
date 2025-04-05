@@ -1,41 +1,39 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator), typeof(PlayerMovementController))]
 public class CharacterAnimationController : MonoBehaviour
 {
     public Animator animator;
-    public Rigidbody rb;
-    public float walkThreshold = 0.01f;
-    public float fallThreshold = -0.01f;
+    private Rigidbody rb;
+    private PlayerMovementController playerMovement;
 
-    private bool isGrounded = true;
+    [Header("Animation Thresholds")]
+    public float fallThreshold = -0.1f;
+    public float jumpThreshold = 0.1f;
 
-    void Start()
+    private void Start()
     {
         animator = animator ?? GetComponent<Animator>();
-        rb = rb ?? GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
+        playerMovement = GetComponent<PlayerMovementController>();
     }
 
-    void Update()
+    private void Update()
     {
-        if (animator == null || rb == null)
-        {
-            Debug.LogError("Animator or Rigidbody is missing!");
+        if (animator == null || rb == null || playerMovement == null)
             return;
-        }
 
-        UpdateAnimationParameters();
-    }
-
-    private void UpdateAnimationParameters()
-    {
         float speed = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z).magnitude;
-
-        // Add damping to reduce jitter (change "0.1f" to control smoothness)
         animator.SetFloat("Speed", speed, 0.1f, Time.deltaTime);
 
-        if (!isGrounded)
+        if (playerMovement.isGrounded)
         {
-            if (rb.linearVelocity.y > 0.1f)
+            animator.SetBool("IsJumping", false);
+            animator.SetBool("IsFalling", false);
+        }
+        else
+        {
+            if (rb.linearVelocity.y > jumpThreshold)
             {
                 animator.SetBool("IsJumping", true);
                 animator.SetBool("IsFalling", false);
@@ -45,24 +43,6 @@ public class CharacterAnimationController : MonoBehaviour
                 animator.SetBool("IsJumping", false);
                 animator.SetBool("IsFalling", true);
             }
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = true;
-            animator.SetBool("IsJumping", false);
-            animator.SetBool("IsFalling", false);
-        }
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isGrounded = false;
         }
     }
 }

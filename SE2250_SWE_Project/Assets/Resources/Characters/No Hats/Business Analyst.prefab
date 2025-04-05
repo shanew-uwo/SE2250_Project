@@ -274,7 +274,7 @@ Transform:
   m_GameObject: {fileID: 3183590605874507565}
   serializedVersion: 2
   m_LocalRotation: {x: 0.25340158, y: -0.00000016737611, z: 0.000000043844405, w: 0.9673612}
-  m_LocalPosition: {x: -15.836704, y: 2.2070656, z: -8.175367}
+  m_LocalPosition: {x: -5.206705, y: 2.2070656, z: -8.175367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -441,7 +441,7 @@ Transform:
   m_GameObject: {fileID: 4669175555340697973}
   serializedVersion: 2
   m_LocalRotation: {x: 0.25340158, y: -0.00000016737611, z: 0.000000043844405, w: 0.9673612}
-  m_LocalPosition: {x: -15.836704, y: 2.2070656, z: -8.175367}
+  m_LocalPosition: {x: -5.206705, y: 2.2070656, z: -8.175367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 7033351371429105935}
   m_Layer: 0
   m_Name: Business Analyst
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -694,9 +694,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2564076442019733601}
-  rb: {fileID: 222306052614633034}
-  walkThreshold: 0.01
   fallThreshold: -0.01
+  jumpThreshold: 0.1
 --- !u!136 &2353304960446946590
 CapsuleCollider:
   m_ObjectHideFlags: 0

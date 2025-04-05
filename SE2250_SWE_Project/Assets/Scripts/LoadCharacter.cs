@@ -7,14 +7,14 @@ public class LoadCharacter : MonoBehaviour
 {
 	public GameObject[] characterPrefabs;
 	public Transform spawnPoint;
-	public TMP_Text label;
+	//public TMP_Text label;
 
 	void Start()
 	{
 		int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter");
 		GameObject prefab = characterPrefabs[selectedCharacter];
 		GameObject clone = Instantiate(prefab, spawnPoint.position, Quaternion.identity);
-		label.text = prefab.name;
+		//label.text = prefab.name;
 	}
 
 public void LoadCharacterManually(GameObject prefab, Vector3 position, Quaternion rotation)
@@ -22,13 +22,13 @@ public void LoadCharacterManually(GameObject prefab, Vector3 position, Quaternio
     GameObject clone = Instantiate(prefab, position, rotation);
     clone.tag = "Player";
 
-    if (label != null)
-    {
-        label.text = prefab.name;
-    }
-    else
-    {
-        Debug.LogWarning("[LoadCharacter] Label is not assigned.");
-    }
+    // if (label != null)
+    // {
+    //     label.text = prefab.name;
+    // }
+    // else
+    // {
+    //     Debug.LogWarning("[LoadCharacter] Label is not assigned.");
+    // }
 }
 }

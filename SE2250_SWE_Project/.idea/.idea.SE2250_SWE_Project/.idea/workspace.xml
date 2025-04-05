@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="" />
+    <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Back End Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Back End Developer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Business Analyst.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Business Analyst.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Data Analyst.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Data Analyst.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Front End Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Front End Developer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Full Stack Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Full Stack Developer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/ML_AI Engineer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/ML_AI Engineer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Security Engineer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Security Engineer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level0.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerAnimationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerAnimationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerMovementController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 0/PlayerMovementController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LoadCharacter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LoadCharacter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +41,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemyHealth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemySpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common Implementations/Health.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common Implementations/PlayerAOEAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameResetterScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 0/NotificationManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level 5/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@15fef0f41df6/Shaders/Lit.shader" root0="SKIP_HIGHLIGHTING" />
@@ -64,7 +76,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -72,7 +84,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -131,6 +143,8 @@
       <workItem from="1743863002503" duration="10220000" />
       <workItem from="1743879464134" duration="14000" />
       <workItem from="1743884721463" duration="799000" />
+      <workItem from="1743893007084" duration="2000" />
+      <workItem from="1743893048027" duration="3608000" />
     </task>
     <servers />
   </component>

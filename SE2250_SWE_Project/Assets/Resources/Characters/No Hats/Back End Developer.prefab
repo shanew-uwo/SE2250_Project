@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 956019807236960535}
   m_Layer: 0
   m_Name: Back End Developer
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61,7 +61,7 @@ Transform:
   m_GameObject: {fileID: 3175938581589156205}
   serializedVersion: 2
   m_LocalRotation: {x: 0.25340158, y: -0.00000016737611, z: 0.000000043844405, w: 0.9673612}
-  m_LocalPosition: {x: -10.006704, y: 2.2070656, z: -8.175367}
+  m_LocalPosition: {x: -5.206705, y: 2.2070656, z: -8.175367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -128,7 +128,7 @@ Transform:
   m_GameObject: {fileID: 4679644582373936949}
   serializedVersion: 2
   m_LocalRotation: {x: 0.25340158, y: -0.00000016737611, z: 0.000000043844405, w: 0.9673612}
-  m_LocalPosition: {x: -10.006704, y: 2.2070656, z: -8.175367}
+  m_LocalPosition: {x: -5.206705, y: 2.2070656, z: -8.175367}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -672,9 +672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 5713485513367339129}
-  rb: {fileID: 8055469757649049170}
-  walkThreshold: 0.01
   fallThreshold: -0.01
+  jumpThreshold: 0.1
 --- !u!136 &5510034681410338054
 CapsuleCollider:
   m_ObjectHideFlags: 0
