@@ -8,6 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/PlayerAOEAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/PlayerAOEAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/PlayerBehaviourInjector.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/PlayerBehaviourInjector.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +114,8 @@
       <workItem from="1743790224988" duration="4178000" />
       <workItem from="1743794448931" duration="461000" />
       <workItem from="1743794928760" duration="2376000" />
-      <workItem from="1743798666156" duration="4583000" />
+      <workItem from="1743798666156" duration="5247000" />
+      <workItem from="1743812905946" duration="843000" />
     </task>
     <servers />
   </component>

@@ -5,7 +5,7 @@ public class PlayerAOEAttack : MonoBehaviour
     [Header("AOE Settings")]
     public float aoeRadius = 5f;
     public float aoeDamage = 20f;
-    public float cooldown = 3f;
+    public float cooldown = 0.5f;
 
     [Header("Line Renderer Settings")]
     public LineRenderer lineRenderer;
