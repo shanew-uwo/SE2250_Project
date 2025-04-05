@@ -1182,12 +1182,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2385477fbef8bcf44a2880088794f000, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerMaxHealth: 100
   playerTag: Player
+  playerMaxHealth: 100
   playerAoeRadius: 5
   playerAoeDamage: 25
   playerAoeCooldown: 0.7
-  playerAoeTargetTag: Bot
+  playerAoeTargetTags:
+  - Bot
+  - Enemy
+  - Boss
   playerAoeKey: 113
   greenGradient:
     serializedVersion: 2
