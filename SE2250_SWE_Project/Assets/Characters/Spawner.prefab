@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6661296315799872779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7843107848708826752}
+  - component: {fileID: 8688325568096511734}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7843107848708826752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6661296315799872779}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.89, y: 4.05, z: -1.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8688325568096511734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6661296315799872779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c46a8f98d638d44195ed591c1473e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPrefabs:
+  - {fileID: 1513433145600291514, guid: 655ac8e6ecd504b26aacc55ba3c866cc, type: 3}
+  - {fileID: 1387822774939217753, guid: 7e5ea98cd24d34f4f956d80aa2a1b60c, type: 3}
+  - {fileID: 7420620284984865471, guid: e6ce23e65a03e4a54b46055db1860f29, type: 3}
+  - {fileID: 2516918301013593559, guid: 345cd9dfa123342b39d7abc61a0fbe1a, type: 3}
+  - {fileID: 3059510653038053247, guid: 2be90b861a21d4d7bae8396f208f4cb5, type: 3}
+  - {fileID: 7330788528935352968, guid: 77e67d536a5fb47d8938486d9667dca7, type: 3}
+  - {fileID: 7330788528935352968, guid: 77e67d536a5fb47d8938486d9667dca7, type: 3}
+  spawnPoint: {fileID: 7843107848708826752}
+  label: {fileID: 0}

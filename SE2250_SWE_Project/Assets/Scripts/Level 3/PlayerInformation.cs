@@ -2,14 +2,14 @@ using UnityEngine;
 
 public class PlayerInformation : MonoBehaviour
 {
-    public int characterType = 7;
+    public int characterType = 0;
 
     public int CharacterType
     {
         get => characterType;
     }
 
-    public bool hasTalked = false;
+    private bool hasTalked = false;
 
     public bool HasTalked
     {
