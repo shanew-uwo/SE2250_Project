@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossHealth : Health
 {
@@ -63,5 +64,10 @@ public class BossHealth : Health
         }
         
         base.TakeDamage(amount);
+    }
+
+    protected override void Die()
+    {
+        SceneManager.LoadScene("Level6BossCompleted");
     }
 }

@@ -5,10 +5,12 @@ public class PortalToHub : MonoBehaviour
 {
     public LevelManager levelManager; // Assign in Inspector
 
-    private void OnTriggerEnter(Collider other)
+    protected virtual void OnTriggerEnter(Collider other)
     {
+        Debug.Log("collision");
         if (other.CompareTag("Player"))
         {
+            Debug.Log("player");
             levelManager.StopTimer();
             SceneManager.LoadScene(0); // Load Hub scene immediately
         }
