@@ -12,6 +12,7 @@ TagManager:
   - BlockOutline
   - Bot
   - Enemy
+  - DamageOverlay
   layers:
   - Default
   - TransparentFX
