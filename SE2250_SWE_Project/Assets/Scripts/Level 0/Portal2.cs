@@ -7,7 +7,7 @@ public class Portal2 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(2); // Load Level 2
+            SceneManager.LoadScene("Level2"); // Load Level 2
         }
     }
 }
