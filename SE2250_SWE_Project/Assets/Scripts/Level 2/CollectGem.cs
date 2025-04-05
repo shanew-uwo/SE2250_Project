@@ -1,8 +1,12 @@
+using System.Collections;
 using UnityEngine;
+using TMPro;  // Import TextMeshPro namespace
+
 public class CollectGem : MonoBehaviour
 {
-    public string skillName = "Fireball"; // Skill name
-    public float attackDamage;     // Damage for this skill
+    public string skillName; // Skill name
+    public float attackDamage;           // Damage for this skill
+    public TextMeshProUGUI skillText;    // Reference to the TextMeshProUGUI component
 
     // Change from OnCollisionEnter to OnTriggerEnter for Trigger colliders
     private void OnTriggerEnter(Collider other)
@@ -20,8 +24,29 @@ public class CollectGem : MonoBehaviour
                 skillManager.AddSkill(newSkill);
             }
 
+            // Update the UI text to show the skill collected message
+            if (skillText != null)
+            {
+                skillText.text = "Skill gained: " + skillName +"!";
+            }
+
+            // Start the coroutine to hide the text after 5 seconds
+            StartCoroutine(HideSkillTextAfterDelay(3f));
+
             // Destroy the gem object after collection
             Destroy(gameObject);
         }
     }
+
+    // Coroutine to hide the text after a delay
+    private IEnumerator HideSkillTextAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);  // Wait for the specified time
+        if (skillText != null)
+        {
+            skillText.text = "";  // Clear the text
+        }
+    }
 }
+
+
