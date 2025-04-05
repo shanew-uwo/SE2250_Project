@@ -29,7 +29,7 @@ public class PlayerBehaviorInjector : MonoBehaviour
             attack.aoeColors[1] = orangeGradient;
             attack.aoeColors[2] = purpleGradient;
             attack.aoeColors[3] = blueGradient;
-            
+
             // Add LineRenderer if not present
             LineRenderer lr = player.GetComponent<LineRenderer>();
             if (lr == null)
@@ -47,23 +47,32 @@ public class PlayerBehaviorInjector : MonoBehaviour
 
             // Assign to the AOE attack script
             attack.lineRenderer = lr;
-            
+
+            // Ensure Health component
             Health health = player.GetComponent<Health>();
             if (health == null)
             {
                 health = player.AddComponent<Health>();
             }
-            
+
+            // Find canvas and assign DamageOverlay
             GameObject canvas = GameObject.Find("Canvas");
-            Transform overlayTransform = canvas.transform.Find("DamageOverlay");
-            if (overlayTransform != null)
+            if (canvas != null)
             {
-                Image damageOverlay = overlayTransform.GetComponent<Image>();
-                health.damageOverlay = damageOverlay;
+                Transform overlayTransform = canvas.transform.Find("DamageOverlay");
+                if (overlayTransform != null)
+                {
+                    Image damageOverlay = overlayTransform.GetComponent<Image>();
+                    health.damageOverlay = damageOverlay;
+                }
+                else
+                {
+                    Debug.LogWarning("DamageOverlay image not found under Canvas.");
+                }
             }
             else
             {
-                Debug.LogWarning("DamageOverlay image not found under Canvas.");
+                Debug.LogWarning("Canvas not found in scene.");
             }
         }
     }
