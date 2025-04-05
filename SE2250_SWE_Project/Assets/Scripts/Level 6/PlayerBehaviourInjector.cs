@@ -68,7 +68,7 @@ public class PlayerBehaviorInjector : MonoBehaviour
             Transform overlayTransform = canvas?.transform.Find("DamageOverlay");
             if (overlayTransform != null)
             {
-                Transform overlayTransform = canvas.transform.Find("DamageOverlay");
+                overlayTransform = canvas.transform.Find("DamageOverlay");
                 if (overlayTransform != null)
                 {
                     Image damageOverlay = overlayTransform.GetComponent<Image>();
