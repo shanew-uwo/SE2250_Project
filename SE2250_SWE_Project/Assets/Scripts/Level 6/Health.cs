@@ -8,7 +8,7 @@ public class Health : MonoBehaviour
     private float currentHealth;
 
     public Image damageOverlay;
-    public float flashDuration = 0.2f;
+    public float flashDuration = 0.1f;
     private float flashTimer = 0f;
     private Color originalColor;
 
@@ -17,7 +17,7 @@ public class Health : MonoBehaviour
         currentHealth = maxHealth;
         if (damageOverlay != null)
         {
-            originalColor = new Color(1f, 0f, 0f, 0.4f); // red with 40% transparency
+            originalColor = new Color(1f, 0f, 0f, 0.2f); // red with 40% transparency
             damageOverlay.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0f); // Start invisible
         }
     }
@@ -58,5 +58,10 @@ public class Health : MonoBehaviour
     public void setMaxHealth(float newMaxHealth)
     {
         maxHealth = newMaxHealth;
+    }
+    
+    public float GetHealthPercent()
+    {
+        return currentHealth / maxHealth;
     }
 }
