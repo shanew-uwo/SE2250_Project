@@ -9,6 +9,9 @@ TagManager:
   - Mountain
   - Wall
   - ExitPortal
+  - BlockOutline
+  - Bot
+  - Enemy
   layers:
   - Default
   - TransparentFX

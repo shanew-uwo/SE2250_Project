@@ -109,5 +109,6 @@ AssetOrigin:
   productId: 256389
   packageName: Mini Modular Character | Free Demo
   packageVersion: 1.0
-  assetPath: Assets/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png
+  assetPath: Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character
+    Free Demo/Readme/Icons/Readme_Builder.png
   uploadId: 600542
