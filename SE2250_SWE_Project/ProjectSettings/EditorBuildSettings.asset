@@ -29,12 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 6 scenes/Level6PreBossfight.unity
     guid: f714fcf1227ede649a87cfc236073a97
-    path: Assets/Scenes/Level2.unity
-    guid: 63dd600c887e542d99f3b18bbe8f9ac8
   - enabled: 1
     path: Assets/Scenes/Level5.unity
     guid: 9fe363d3d09a0e24d84f13105acd180e
-  - enabled: 1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
