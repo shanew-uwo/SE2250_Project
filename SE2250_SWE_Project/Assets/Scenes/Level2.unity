@@ -133,11 +133,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7843107848708826752, guid: d76a7190e59d246e98c6c2fca4c13ae3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 67.11
+      value: 17.8
       objectReference: {fileID: 0}
     - target: {fileID: 7843107848708826752, guid: d76a7190e59d246e98c6c2fca4c13ae3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.51
+      value: 2.2
       objectReference: {fileID: 0}
     - target: {fileID: 7843107848708826752, guid: d76a7190e59d246e98c6c2fca4c13ae3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -186,6 +186,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1309532263}
   - component: {fileID: 1309532262}
+  - component: {fileID: 1309532264}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -267,12 +268,35 @@ Transform:
   m_GameObject: {fileID: 1309532261}
   serializedVersion: 2
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 19.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &1309532264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1309532261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &1632302439
 GameObject:
   m_ObjectHideFlags: 0
@@ -27314,7 +27338,7 @@ MonoBehaviour:
   interactionText: {fileID: 6034683695070450294}
   feedbackText: {fileID: 378062442371274043}
   dialogueText: {fileID: 3773573934994288151}
-  dialoguePanel: {fileID: 0}
+  dialoguePanel: {fileID: 1632302439}
   dialogueCanvas: {fileID: 6896024318526170685}
   portalPrefab: {fileID: 0}
   portalSpawnPoint: {fileID: 299719648373734215}
@@ -39326,9 +39350,9 @@ MonoBehaviour:
   interactionText: {fileID: 6034683695070450294}
   feedbackText: {fileID: 378062442371274043}
   dialogueText: {fileID: 3773573934994288151}
-  dialoguePanel: {fileID: 0}
+  dialoguePanel: {fileID: 1632302439}
   dialogueCanvas: {fileID: 6896024318526170685}
-  portalPrefab: {fileID: 1980661912740928460, guid: ffa460eae0da2464e9101dac51250de0, type: 3}
+  portalPrefab: {fileID: 4762393783336887589, guid: 5d648f6890a59406691ad1883ae64dca, type: 3}
   portalSpawnPoint: {fileID: 324365944319029449}
 --- !u!23 &3038601347842879292
 MeshRenderer:
@@ -108681,7 +108705,7 @@ Transform:
   m_GameObject: {fileID: 5461245333871271219}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 42.398994, y: 0, z: 28.166265}
+  m_LocalPosition: {x: -6.911007, y: 12.71, z: 28.166265}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
