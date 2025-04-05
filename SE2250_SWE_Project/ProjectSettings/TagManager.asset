@@ -13,6 +13,7 @@ TagManager:
   - Bot
   - Enemy
   - DamageOverlay
+  - Boss
   layers:
   - Default
   - TransparentFX
