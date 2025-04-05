@@ -7,7 +7,7 @@ public class Portal1 : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(1); // Load Level 1
+            SceneManager.LoadScene("Level1"); // Load Level 1
             Debug.Log("Collision With Portal1");
         }
     }
