@@ -2,7 +2,6 @@
 // namespace Common_Implementations
 // {
 using UnityEngine;
-using UnityEngine.AI; // Optional
 
 [RequireComponent(typeof(Collider))]
 public class EnemyMovementAI : MonoBehaviour

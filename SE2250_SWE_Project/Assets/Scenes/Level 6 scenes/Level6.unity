@@ -335,35 +335,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
   m_PrefabInstance: {fileID: 1529915685}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &86836659
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86836658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 278b8929aba6f254cb35311bef388e1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 86836666}
-  speedMultiplier: 10
---- !u!114 &86836660
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 86836658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a79e61479fb5ea41bb5995815568b13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1650314526}
-  speed: 1.5
-  stoppingDistance: 1.5
 --- !u!114 &86836662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -544,9 +515,42 @@ MonoBehaviour:
   maxHealth: 1000
   damageOverlay: {fileID: 0}
   flashDuration: 0.2
+  recruiterBotTag: Bot
   playerSkill: Skill 1
   weaknessText: {fileID: 1898940741}
-  maxBossHealth: 1000
+  actualMaxBossHealth: 1000
+--- !u!114 &86836671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86836658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9e78e005026043fa9040d1569c487a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 86836666}
+  speedMultiplier: 10
+--- !u!114 &86836673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86836658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59a1c276b7e64f65a7b7341685ed0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 10
+  playerTag: Player
+  fixedDestination: {fileID: 0}
+  speed: 3.5
+  stoppingDistance: 1.5
+  rotationSpeed: 120
 --- !u!1 &130375616
 GameObject:
   m_ObjectHideFlags: 0
@@ -2036,12 +2040,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 86836660}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 86836659}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 86836662}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
       insertIndex: -1
@@ -2055,6 +2053,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
       insertIndex: -1
       addedObject: {fileID: 86836670}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86836671}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 86836673}
   m_SourcePrefab: {fileID: 100100000, guid: f4c384e0dbc4d5841bdb746017499020, type: 3}
 --- !u!4 &1650314526 stripped
 Transform:
