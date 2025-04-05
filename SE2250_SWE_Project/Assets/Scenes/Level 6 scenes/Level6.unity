@@ -546,6 +546,7 @@ MonoBehaviour:
   flashDuration: 0.2
   playerSkill: Skill 1
   weaknessText: {fileID: 1898940741}
+  maxBossHealth: 1000
 --- !u!1 &130375616
 GameObject:
   m_ObjectHideFlags: 0
