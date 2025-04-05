@@ -14,11 +14,23 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterSelection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterSelection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/ConversationStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/ConversationStarter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/PlayerInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/PlayerInformation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons/Help_Icon.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/CharacterAsset/Character/Mini Modular Character Free Demo/Readme/Icons/Readme_Builder.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Objects/Level 0/Magic circle 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Objects/Level 0/Magic circle 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level 0/CharacterPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level 0/CharacterPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 2/CollectGem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 2/CollectGem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 2/ManageSkills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 2/ManageSkills.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -69,7 +81,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;CodeLensConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
@@ -100,13 +112,15 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="34358">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="34358" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list />
+        <list>
+          <MonoRuntime />
+        </list>
       </option>
       <option name="selectedOptions">
         <list />
@@ -136,6 +150,22 @@
       <workItem from="1743810368513" duration="8000" />
       <workItem from="1743810410960" duration="24000" />
       <workItem from="1743812646805" duration="23000" />
+      <workItem from="1743709731590" duration="26000" />
+      <workItem from="1743710071185" duration="370000" />
+      <workItem from="1743710454595" duration="847000" />
+      <workItem from="1743747995062" duration="5000" />
+      <workItem from="1743748178585" duration="82000" />
+      <workItem from="1743783310860" duration="1335000" />
+      <workItem from="1743784658736" duration="6000" />
+      <workItem from="1743786589771" duration="236000" />
+      <workItem from="1743786829616" duration="3977000" />
+      <workItem from="1743793297872" duration="11000" />
+      <workItem from="1743793808836" duration="17000" />
+      <workItem from="1743793910242" duration="5000" />
+      <workItem from="1743793976551" duration="19000" />
+      <workItem from="1743794051548" duration="10000" />
+      <workItem from="1743801783997" duration="1989000" />
+      <workItem from="1743810660211" duration="2025000" />
     </task>
     <servers />
   </component>

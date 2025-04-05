@@ -13,8 +13,6 @@ public class ManageSkills : MonoBehaviour
     public void AddSkill(Skill skill)
     {
         playerSkills.Add(skill);
-        Debug.Log("Player has gained a new skill: " + skill.skillName);
-        ApplySkillEffect(skill);
     }
 
     // Method to apply the effect of a granted skill
@@ -71,5 +69,4 @@ public class ManageSkills : MonoBehaviour
     {
         return currentAttackDamage;
     }
-
 }
