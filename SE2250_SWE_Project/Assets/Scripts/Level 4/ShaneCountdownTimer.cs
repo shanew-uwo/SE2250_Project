@@ -4,17 +4,18 @@ using UnityEngine.SceneManagement;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float timeRemaining = 60f;
+    public float timeRemaining = 180f;
     public TMP_Text timerText;
 
     public BlockTracker blockTracker;
     public TMP_Text resultText;
 
     private bool hasTimedOut = false;
+    public bool gameWon = false; 
 
     void Update()
     {
-        if (!hasTimedOut)
+        if (!hasTimedOut && !gameWon)
         {
             timeRemaining -= Time.deltaTime;
             timeRemaining = Mathf.Max(0f, timeRemaining);
