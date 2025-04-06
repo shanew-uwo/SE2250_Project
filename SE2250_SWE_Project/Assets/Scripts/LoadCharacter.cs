@@ -20,7 +20,7 @@ public class LoadCharacter : MonoBehaviour
 public void LoadCharacterManually(GameObject prefab, Vector3 position, Quaternion rotation)
 {
     GameObject clone = Instantiate(prefab, position, rotation);
-    clone.tag = "Player";
+    // clone.tag = "Player";
 
     // if (label != null)
     // {

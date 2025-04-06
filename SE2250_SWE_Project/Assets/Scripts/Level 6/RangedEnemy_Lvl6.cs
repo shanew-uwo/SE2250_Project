@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 // Add RequireComponent to ensure EnemyMovementAI exists
@@ -33,6 +34,25 @@ public class RangedEnemy_Lvl6 : MonoBehaviour
         {
             Debug.LogError($"RangedEnemy_Lvl6 on {name} is missing the Projectile Prefab!", this);
             enabled = false;
+        }
+    }
+    
+    void Start()
+    {
+        StartCoroutine(FindPlayerDelayed());
+    }
+
+    IEnumerator FindPlayerDelayed()
+    {
+        yield return new WaitForEndOfFrame(); // Wait until everything in Start() has run
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+        else
+        {
+            Debug.LogWarning("Player not found after delay.");
         }
     }
 

@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: e01b446b797b562469496ddf24b089b8, type: 2}
+    - target: {fileID: 3479540677046268014, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7397693572090210836, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.84
@@ -73,6 +77,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7917947957739057326, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4394537587059443897}
+    - targetCorrespondingSourceObject: {fileID: 7917947957739057326, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7870264223175915755}
   m_SourcePrefab: {fileID: 100100000, guid: ffed7eb70f0e641ee93f7ff53f632531, type: 3}
 --- !u!95 &3002833544278862629 stripped
 Animator:
@@ -96,13 +103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 161a9e0d9ba6dbf428220f949431d113, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
   projectilePrefab: {fileID: 925632704713715212, guid: cb104489aedc74e44bd26e41b2c63480, type: 3}
-  moveSpeed: 2
   projectileSpeed: 5
   fireRate: 0.25
-  spawnDistance: 4
+  projectileSpawnOffset: 1
   fireDistance: 15
+  player: {fileID: 0}
 --- !u!114 &8312506041672849794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -112,7 +118,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8360872557088599013}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 278b8929aba6f254cb35311bef388e1a, type: 3}
+  m_Script: {fileID: 11500000, guid: e9e78e005026043fa9040d1569c487a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3002833544278862629}
@@ -132,4 +138,23 @@ MonoBehaviour:
   maxHealth: 100
   damageOverlay: {fileID: 0}
   flashDuration: 0.2
+  recruiterBotTag: Bot
   enemyMaxHealth: 20
+--- !u!114 &7870264223175915755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360872557088599013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b59a1c276b7e64f65a7b7341685ed0d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  detectionRadius: 10
+  playerTag: Player
+  fixedDestination: {fileID: 0}
+  speed: 3.5
+  stoppingDistance: 1.5
+  rotationSpeed: 120

@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 422218604736134079}
   m_Layer: 0
   m_Name: ML_AI Engineer
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

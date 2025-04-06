@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class RangedEnemySpawner : MonoBehaviour
@@ -10,6 +11,25 @@ public class RangedEnemySpawner : MonoBehaviour
     public float spawnRadius = 10f;
 
     private float spawnTimer = 0f;
+
+    void Start()
+    {
+        StartCoroutine(FindPlayerDelayed());
+    }
+
+    IEnumerator FindPlayerDelayed()
+    {
+        yield return new WaitForEndOfFrame(); // Wait until everything in Start() has run
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj != null)
+        {
+            player = playerObj.transform;
+        }
+        else
+        {
+            Debug.LogWarning("Player not found after delay.");
+        }
+    }
 
     void Update()
     {
@@ -44,7 +64,7 @@ public class RangedEnemySpawner : MonoBehaviour
         RangedEnemy_Lvl6 script = enemy.GetComponent<RangedEnemy_Lvl6>();
         if (script != null)
         {
-            //script.player = player;
+            script.player = player;
         }
         else
         {
