@@ -24,11 +24,18 @@ public class HatPickup : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Trigger Entered by: " + other.tag);
+        
         if (!other.CompareTag("Player") || spawner == null || characterPrefabs == null) return;
+        
+        Debug.Log("passed");
 
         int selectedCharacter = PlayerPrefs.GetInt("selectedCharacter", -1);
+        
+        Debug.Log(selectedCharacter);
+        
         if (selectedCharacter < 0 || selectedCharacter >= characterPrefabs.Length) return;
-
+        
         string baseName = characterPrefabs[selectedCharacter].name;
         string variantName = baseName + " Variant";
         string prefabPath = $"Characters/Level {hatLevel} Hats/{variantName}";
