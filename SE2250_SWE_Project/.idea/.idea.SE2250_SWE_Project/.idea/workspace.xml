@@ -7,6 +7,7 @@
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Portal blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Portal blue.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Back End Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Back End Developer.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Business Analyst.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Business Analyst.prefab" afterDir="false" />
@@ -19,10 +20,15 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 2/ManageSkills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 2/ManageSkills.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 2/ToHubJade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 2/ToHubJade.cs" afterDir="false" />
 =======
+=======
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3a.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3b.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 3 Scenes/Scene 3b.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/ConversationStarter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/ConversationStarter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 3/PlayerInformation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 3/PlayerInformation.cs" afterDir="false" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +88,11 @@
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <option name="EXE_PATH" value="$USER_HOME$/Downloads/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+=======
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+>>>>>>> Stashed changes
 =======
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
 >>>>>>> Stashed changes
@@ -94,7 +104,11 @@
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <option name="EXE_PATH" value="$USER_HOME$/Downloads/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+=======
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+>>>>>>> Stashed changes
 =======
       <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
 >>>>>>> Stashed changes
@@ -161,6 +175,7 @@
       <workItem from="1743899029765" duration="2718000" />
       <workItem from="1743902775382" duration="805000" />
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       <workItem from="1743950567519" duration="25000" />
       <workItem from="1743950619246" duration="165000" />
       <workItem from="1743951003034" duration="414000" />
@@ -170,6 +185,10 @@
       <workItem from="1743952352756" duration="147000" />
       <workItem from="1743952710465" duration="488000" />
       <workItem from="1743953234353" duration="440000" />
+=======
+      <workItem from="1743949843062" duration="1101000" />
+      <workItem from="1743950962665" duration="12000" />
+>>>>>>> Stashed changes
 =======
       <workItem from="1743949843062" duration="1101000" />
       <workItem from="1743950962665" duration="12000" />
