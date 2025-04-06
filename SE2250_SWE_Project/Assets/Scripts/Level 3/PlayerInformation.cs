@@ -9,15 +9,15 @@ public class PlayerInformation : MonoBehaviour
         get => characterType;
     }
 
-    private bool hasTalked = false;
+    private static bool  _hasTalked = false;
 
-    public bool HasTalked
+    public static bool HasTalked
     {
-        get => hasTalked;
+        get => _hasTalked;
     }
 
     public void SetHasTalked()
     {
-        hasTalked = true;
+        _hasTalked = true;
     }
 }

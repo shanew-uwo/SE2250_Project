@@ -4,6 +4,7 @@ using UnityEngine;
 public class ConversationStarter : MonoBehaviour
 {
     [SerializeField] private NPCConversation myConversation;
+    [SerializeField] private PlayerInformation levelManagementInfo;
 
     private void OnTriggerStay(Collider other)
     {
@@ -22,7 +23,7 @@ public class ConversationStarter : MonoBehaviour
                 {
                     // Get the characterType value from the playerInfo component
                     int playerCharacterType = playerInfo.CharacterType;
-                    bool hasPlayerTalked = playerInfo.HasTalked;
+                    bool hasPlayerTalked = PlayerInformation.HasTalked;
                     // You can access the public field directly
                     // Or use the property: int playerCharacterType = playerInfo.CharacterType;
 
