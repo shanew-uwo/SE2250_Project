@@ -12,7 +12,7 @@ public class PortalToHub : MonoBehaviour
         {
             Debug.Log("player");
             levelManager.StopTimer();
-            SceneManager.LoadScene(0); // Load Hub scene immediately
+            SceneManager.LoadScene(1); // Load Hub scene immediately
         }
     }
 }
