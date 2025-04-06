@@ -163,4 +163,9 @@ public class EnemyMovementAI : MonoBehaviour
             Gizmos.DrawWireSphere(fixedDestination.position, 0.5f);
         }
     }
+
+    public void SetMovementSpeed(float speed)
+    {
+        this.speed = speed;
+    }
 }
