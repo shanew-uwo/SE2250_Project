@@ -1,13 +1,18 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class ToHubJade : MonoBehaviour
 {
-    private void OnTriggerEnter(Collider other)
+    [Tooltip("Name of the scene to load when the player enters the portal.")]
+    public string hubSceneName = "Level0";
+
+    public void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(1); // Load Hub scene immediately
+            Debug.Log("Player entered portal. Loading hub scene: " + hubSceneName);
+            SceneManager.LoadScene(hubSceneName);
         }
     }
 }

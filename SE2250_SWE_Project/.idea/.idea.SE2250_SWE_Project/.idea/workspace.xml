@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d7562a9-e8a5-4ab6-83c2-31ee81c0e835" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemyMovementAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common Implementations/EnemyMovementAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 6/BossMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 6/BossMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SE2250_SWE_Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level2/Portal blue.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level2/Portal blue.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Back End Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Back End Developer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Business Analyst.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Business Analyst.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Data Analyst.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Data Analyst.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Front End Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Front End Developer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Full Stack Developer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Full Stack Developer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/ML_AI Engineer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/ML_AI Engineer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Security Engineer.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Characters/No Hats/Security Engineer.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 2/ManageSkills.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 2/ManageSkills.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level 2/ToHubJade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level 2/ToHubJade.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +74,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Downloads/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -74,7 +82,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Downloads/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\Ryan0\Desktop\2250\FinalProject\SE2250_Project\SE2250_SWE_Project" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -137,6 +145,15 @@
       <workItem from="1743893048027" duration="3608000" />
       <workItem from="1743899029765" duration="2718000" />
       <workItem from="1743902775382" duration="805000" />
+      <workItem from="1743950567519" duration="25000" />
+      <workItem from="1743950619246" duration="165000" />
+      <workItem from="1743951003034" duration="414000" />
+      <workItem from="1743951852504" duration="148000" />
+      <workItem from="1743952143584" duration="20000" />
+      <workItem from="1743952208413" duration="8000" />
+      <workItem from="1743952352756" duration="147000" />
+      <workItem from="1743952710465" duration="488000" />
+      <workItem from="1743953234353" duration="440000" />
     </task>
     <servers />
   </component>

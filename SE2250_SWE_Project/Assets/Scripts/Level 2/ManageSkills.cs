@@ -69,4 +69,10 @@ public class ManageSkills : MonoBehaviour
     {
         return currentAttackDamage;
     }
+    
+    public List<Skill> GetSkills()
+    {
+        return new List<Skill>(playerSkills);
+    }
+
 }
